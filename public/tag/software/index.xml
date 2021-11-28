@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software | Jianqiao Wang</title>
+    <link>https://academic-demo.netlify.app/tag/software/</link>
+      <atom:link href="https://academic-demo.netlify.app/tag/software/index.xml" rel="self" type="application/rss+xml" />
+    <description>software</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>software</title>
+      <link>https://academic-demo.netlify.app/tag/software/</link>
+    </image>
+    
+    <item>
+      <title>Simulation and analysis with R and GCTA</title>
+      <link>https://academic-demo.netlify.app/post/simulation-and-analysis-with-r-and-gcta/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/post/simulation-and-analysis-with-r-and-gcta/</guid>
+      <description>&lt;p&gt;My dissertation research always needs to do comparison with the GCTA method. GCTA is a wonderful software designed for the dealing with the GWAS data. On the other hand, it does not always fit in the common  statistical simulation pipeline, particualy for the software R. This post is used to document how to do statistical simulation with R and GCTA.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
