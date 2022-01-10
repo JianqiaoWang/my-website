@@ -50,6 +50,8 @@ done
 
 ```{bash eval = F}
 plink2 --pfile all_phase3 --pgen-info # check the information 
+# or use the following command if all_phase3 is zst compressed
+plink2 --pfile all_phase3 vzs --pgen-info # check the information 
 ```
 
 The output is the information of the genotypes
@@ -66,18 +68,51 @@ The output is the information of the genotypes
 
 Then we extract the European indviduals with maf > 0.01 amd remove snps with multi allels, duplicate posisions and names 
 
+```{batch}
+
+plink2 --pfile all_phase3 'vzs' --keep-if SuperPop == EUR --rm-dup exclude-all --snps-only  'just-acgt' --max-alleles 2 --chr 1-22 --maf 0.01 --make-bed --out all_phase3_eur_maf_0.01
+
+```
+
+```{result}
+2504 samples (1271 females, 1233 males; 2497 founders) loaded from
+all_phase3.psam.
+77818345 out of 84805772 variants loaded from all_phase3.pvar.zst.
+2 categorical phenotypes loaded.
+--rm-dup: 191 duplicated IDs, 382 variants removed.
+--keep-if: 2001 samples removed.
+503 samples (263 females, 240 males; 503 founders) remaining after main
+filters.
+Calculating allele frequencies... done.
+69267844 variants removed due to allele frequency threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+8550119 variants remaining after main filters.
+```
+
+Download and insert genetic distances
+```{batch}
+
+plink --bfile all_phase3_eur_maf_0.01 --cm-map ./genetic_map/genetic_map_chr@_combined_b37.txt --make-bed --out all_phase3_eur_maf_0.01_ctm
+
+```
 
 
-duplicates and   consider remove the duplicates --maf 0.01 --keep eur.keep
-
+Replace predictor names with generic names of the form Chr:BP (often not required, but I find this format more convenient). It is useful to create a file containing the original names, generic names and alleles.
 
 ```{batch}
-plink2 --pfile $refdir/all_phase3 vzs\
---max-alleles 2
---make-bed \
---out $refdir/all_phase3
-mv $refdir/all_phase3.log $refdir/log
+genofile='all_phase3_eur_maf_0.01'
+awk < ${genofile}_ctm.bim '{$2=$1":"$4;print $0}' > ${genofile}_ref.bim
+awk < ${genofile}_ctm.bim '{print $2, $1":"$4, $5, $6}' > ${genofile}_ref.names
+cp ${genofile}_ctm.bed ${genofile}_ref.bed
+cp ${genofile}_ctm.fam ${genofile}_ref.fam
 ```
+
+Then we remove the intermediate results and keep the ${genofile}_ref files as our reference panel.
+
+Reference
+
+- https://dougspeed.com/reference-panel/
+- https://www.cog-genomics.org/plink/2.0/filter
 
 
 - A helpful tool for analyzing the GWAS data: plinkQC (Discussed later)

@@ -16,9 +16,7 @@ image:
   preview_only: no
 projects: []
 ---
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(eval = FALSE)
-```
+
 
 To do simulation with genetic data, we need to make some preparion. First, we detemine the snplist and individuals in the genotype data:
 
@@ -26,8 +24,8 @@ snplist.txt
 
 Prepare data for package bigsnpr and bigstatsr
 
-```{r}
 
+```r
 library(bigsnpr)
 library(bigstatsr)
 PrepareX = FALSE
@@ -54,7 +52,8 @@ data.table::fwrite( as.data.frame(geno$map$marker.ID), file = "snplist.txt")
 
 Prepare for the GCTA method 
 
-```{r}
+
+```r
 ref.bed = "../../Cric_HF_RealData/rawdata/cric.filtered.maf0.01"
 MakeGRM = function(ref.bed, keep.snp, keep.ind, output.dir = "./temp/"){
 
@@ -70,8 +69,7 @@ MakeGRM = function(ref.bed, keep.snp, keep.ind, output.dir = "./temp/"){
 
 Prepare for the LD Score regression : Calculate the ld score
 
-```{r}
 
+```r
 System("ldsc.py --bfile ../../Cric_HF_RealData/rawdata/cric.filtered.maf0.01 --extract ./temp/snplist.txt --ld-wind-kb 1000 --out ./temp/geno")
-
 ```

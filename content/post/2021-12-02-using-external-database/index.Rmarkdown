@@ -1,0 +1,88 @@
+---
+title: Using external database
+author: Jianqiao Wang
+date: '2021-12-02'
+slug: using-external-database
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-12-02T13:52:13-05:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+Use phenoscanner to look for pQTL and eQTL results: Input is rsid or ChrX:XXXX  snplist
+
+```{r}
+external.search = function(snplist, thresh = 0.01, type = "pQTL" , proxies = "None",  r2 = 0.8 ){
+  uni.snp.split = snplist %>% unique() %>% split(., ceiling(seq_along(. )/100))
+  external.res = data.frame(); snp.information = data.frame()
+  for(i in 1:length(uni.snp.split) ){
+    rawsearch <- phenoscanner(snpquery= uni.snp.split[[i]], 
+                              catalogue = type, pvalue = thresh, proxies = proxies, r2 = r2 )
+    external.res = bind_rows(external.res, rawsearch$results) 
+    snp.information = bind_rows(snp.information, rawsearch$snp)
+  }
+  return(list(external.res = external.res, snp.information = snp.information))
+}
+```
+
+GTEx eQTL results:
+```{r}
+library(httr)
+library(jsonlite)
+library(xml2)
+
+#----------------------------
+
+GeteQTL = function(genesymb, SNPID, tissueSiteDetailId){
+  json_body = BodyGenerate( gencodeId = genesymb,
+                            variantId = SNPID,
+                            tissueSiteDetailId = tissueSiteDetailId)
+
+  r <- POST("https://gtexportal.org/rest/v1/association/dyneqtl",
+            content_type("application/json"), accept("application/json"),
+            body = json_body, encode = "raw")
+
+  res <- warn_for_status(r)
+
+  if(r$status_code == 500)
+  {
+    #error handling code, maybe just skip this iteration using
+    return(NA)
+  }
+
+  # stop_for_status(r)
+  # use this if you get a simple nested list back, otherwise inspect its structure
+  # head(data.frame(t(sapply(content(r),c))))
+  Z1 =  fromJSON(toJSON(content(r)))$result;
+  h = do.call(rbind, Z1) %>% t;
+  rownames(h) = NULL
+  return(h)
+}
+
+BodyGenerate = function(gencodeId, variantId, tissueSiteDetailId){
+  
+  list1 = lapply(tissueSiteDetailId, function(x){
+    
+    l1 = list( "gencodeId" = gencodeId,
+               "tissueSiteDetailId" = x,
+               "variantId" = variantId  )
+    return(l1)
+    
+  } )
+  
+  json_body <- jsonlite::toJSON(list1, auto_unbox = T)
+  
+  return(json_body)
+}
+
+
+```

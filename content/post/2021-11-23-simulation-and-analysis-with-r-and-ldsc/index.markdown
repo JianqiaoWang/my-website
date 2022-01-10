@@ -17,43 +17,6 @@ image:
 projects: []
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(eval = FALSE)
-```
-
-Here we first start from the VCF file and convert it into bed file. For example, for the GTEx data, we process it as,  
-```{bash}
-plink2 --vcf GTEx_Analysis_2017-06-05_v8_WholeGenomeSeq_838Indiv_Analysis_Freeze.SHAPEIT2_phased.vcf.gz --make-pgen --rm-dup exclude-all --snps-only  'just-acgt' --max-alleles 2 --chr 1-22 --maf 0.01 --hwe 1e-10 --geno 0.01 --mind 0.01 --out GTEx_WGS_838Indiv_Freeze_phased_MAF_0.01_chr1_22
-```
-The output is 
-```{output}
-Start time: Fri Dec  3 14:01:56 2021
-128659 MiB RAM detected; reserving 64329 MiB for main workspace.
-Using up to 40 threads (change this with --threads).
---vcf: 45138608 variants scanned (1387684 skipped).
---vcf: GTEx_WGS_838Indiv_Freeze_phased_MAF_0.01_chr1_22-temporary.pgen +
-GTEx_WGS_838Indiv_Freeze_phased_MAF_0.01_chr1_22-temporary.pvar.zst +
-GTEx_WGS_838Indiv_Freeze_phased_MAF_0.01_chr1_22-temporary.psam written.
-838 samples (0 females, 0 males, 838 ambiguous; 838 founders) loaded from
-GTEx_WGS_838Indiv_Freeze_phased_MAF_0.01_chr1_22-temporary.psam.
-41783688 out of 45138608 variants loaded from
-GTEx_WGS_838Indiv_Freeze_phased_MAF_0.01_chr1_22-temporary.pvar.zst.
-Note: No phenotype data present.
-Note: Skipping --rm-dup since no duplicate IDs are present.
-Calculating sample missingness rates... done.
-0 samples removed due to missing genotype data (--mind).
-838 samples (0 females, 0 males, 838 ambiguous; 838 founders) remaining after
-main filters.
-Calculating allele frequencies... done.
---geno: 248646 variants removed due to missing genotype data.
---hwe: 57125 variants removed due to Hardy-Weinberg exact test (founders only).
-31937888 variants removed due to allele frequency threshold(s)
-(--maf/--max-maf/--mac/--max-mac).
-9540029 variants remaining after main filters.
-Writing GTEx_WGS_838Indiv_Freeze_phased_MAF_0.01_chr1_22.psam ... done.
-Writing GTEx_WGS_838Indiv_Freeze_phased_MAF_0.01_chr1_22.pvar ... done.
-Writing GTEx_WGS_838Indiv_Freeze_phased_MAF_0.01_chr1_22.pgen ... done.
-```
 
 
 First, we generate the ld score based on the genotype file. This function only need be estimated once 
@@ -65,7 +28,8 @@ ldsc.py --bfile ../../Cric_HF_RealData/rawdata/cric.filtered.maf0.01 --extract .
 
 
 Implement the LDSC regression 
-```{r}
+
+```r
 SimuLDSC = function(Z1, N1, Z2, N2, Nc=0, weight=T, CSTR = T,
                            info = NA, LDSCORE, corenum = 1, output.dir){
   
@@ -92,14 +56,13 @@ SimuLDSC = function(Z1, N1, Z2, N2, Nc=0, weight=T, CSTR = T,
 
   } 
   }
-
-
 ```
 
 
 read the LDSC output 
 
-```{r}
+
+```r
 read.LDSC = function(output.dir){
   H = fread(paste0(output.dir, "LDSC.log"), fill = T)
   result.all = rep(NA, 8)
@@ -139,7 +102,5 @@ read.LDSC = function(output.dir){
   }
   return( c(GeCv.pv = pvalue, GeCr.pv = as.numeric(result.P[2])) )
 }
-
-
 ```
 

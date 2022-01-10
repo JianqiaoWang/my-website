@@ -17,7 +17,6 @@ image:
 projects: []
 ---
 
-
 Working with the summary association statistics has been important in current GWAS studies. However, generated from different cohorts, the format of summary association statistics varies a lot. In this post, we discuss how to do the preprocessing for summary association statistics. 
 
 Useful links 
