@@ -58,11 +58,12 @@ Writing GTEx_WGS_838Indiv_Freeze_phased_MAF_0.01_chr1_22.pgen ... done.
 
 First, we generate the ld score based on the genotype file. This function only need be estimated once 
 
+```{ldsc}
 module load ldsc
 source activate ldsc-1.0.1
 ldsc.py --bfile geno  --ld-wind-cm 1 --out chr1_select
 ldsc.py --bfile ../../Cric_HF_RealData/rawdata/cric.filtered.maf0.01 --extract ./temp/snplist.txt --ld-wind-kb 1000 --out ./temp/geno
-
+```
 
 Implement the LDSC regression 
 ```{r}

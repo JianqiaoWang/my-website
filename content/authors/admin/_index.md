@@ -46,8 +46,8 @@ superuser: true
 title: Jianqiao Wang 
 ---
 
-I am currently a 5th-Year PhD student at the Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, advised by Prof. Hongzhe Li.
+I am currently a 5th-Year Ph.D. student at the Department of Biostatistics, Epidemiology and Informatics, the University of Pennsylvania, advised by Prof. Hongzhe Li.
 
-My research interest lies in understanding the shared  genetic architecture of complex traits and disease outocmes. My current research focuses on (i) developping statistical tools for analyzing genetic and genomic data, (ii) detecting and identifying the overlapping genetic architecture.
+My research interest lies in understanding the shared genetic architecture of complex traits and disease outcomes. My current research focuses on (i) developing statistical tools for analyzing genetic and genomic data, (ii) detecting and identifying the overlapping genetic architecture.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
