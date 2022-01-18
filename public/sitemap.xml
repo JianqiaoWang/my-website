@@ -21,7 +21,19 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
     <loc>https://academic-demo.netlify.app/post/</loc>
-    <lastmod>2021-11-22T22:45:32-05:00</lastmod>
+    <lastmod>2021-11-27T17:58:09-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/post/working-with-the-reference-genotype-data/</loc>
+    <lastmod>2021-11-27T17:57:24-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/post/working-with-the-summary-association-statistics/</loc>
+    <lastmod>2021-11-27T17:58:09-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/post/step-0-preparation-for-the-genomic-simulation/</loc>
+    <lastmod>2021-11-25T16:17:55-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/post/simulation-and-analysis-with-r-and-ldsc/</loc>
+    <lastmod>2021-11-23T11:50:44-05:00</lastmod>
   </url><url>
     <loc>https://academic-demo.netlify.app/post/simulation-and-analysis-with-r-and-gcta/</loc>
     <lastmod>2021-11-22T22:45:32-05:00</lastmod>
@@ -38,74 +50,131 @@
     <loc>https://academic-demo.netlify.app/courses/example/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://academic-demo.netlify.app/tag/academic/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/publication-type/2/</loc>
+    <lastmod>2022-01-17T22:24:57-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/publication/wang-2021-unified/</loc>
+    <lastmod>2022-01-17T22:24:57-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/afshin-parsa/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/alan-s.-go/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/amanda-h.-anderson/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/anthony-n.-muiru/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
   </url><url>
     <loc>https://academic-demo.netlify.app/authors/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-17T22:24:57-05:00</lastmod>
   </url><url>
-    <loc>https://academic-demo.netlify.app/categories/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/author/chi-yuan-hsu/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
   </url><url>
-    <loc>https://academic-demo.netlify.app/category/demo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/author/debbie-l.-cohen/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/publication/wang-2021-estimation/</loc>
+    <lastmod>2022-01-17T18:35:40-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/harold-i.-feldman/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/hongzhe-li/</loc>
+    <lastmod>2022-01-17T22:24:57-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/james-p.-lash/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/jiang-he/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
   </url><url>
     <loc>https://academic-demo.netlify.app/author/jianqiao-wang/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-17T22:24:57-05:00</lastmod>
   </url><url>
-    <loc>https://academic-demo.netlify.app/post/getting-started/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/author/katherine-t.-mills/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
   </url><url>
-    <loc>https://academic-demo.netlify.app/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/author/madhumita-j.-mohanty/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
   </url><url>
-    <loc>https://academic-demo.netlify.app/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/author/milda-r.-saunders/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
   </url><url>
-    <loc>https://academic-demo.netlify.app/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/post/2020-12-01-r-rmarkdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/tag/plot/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/category/r/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/tag/r-markdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/tag/regression/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/publication-type/3/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/author/myles-wolf/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
   </url><url>
     <loc>https://academic-demo.netlify.app/publication_types/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-17T22:24:57-05:00</lastmod>
   </url><url>
     <loc>https://academic-demo.netlify.app/publication/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-17T22:24:57-05:00</lastmod>
   </url><url>
-    <loc>https://academic-demo.netlify.app/tag/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/publication/hsu-2021-race/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
   </url><url>
-    <loc>https://academic-demo.netlify.app/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <loc>https://academic-demo.netlify.app/author/raymond-r.-townsend/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/rishi-v.-parikh/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/sai-li/</loc>
+    <lastmod>2022-01-17T22:24:57-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/publication/wangsparse/</loc>
+    <lastmod>2022-01-17T18:35:46-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/sushrut-s.-waikar/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/tariq-shafi/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/teresa-k.-chen/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/thida-c.-tan/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/wanjie-wang/</loc>
+    <lastmod>2022-01-17T18:35:46-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/wei-yang/</loc>
+    <lastmod>2022-01-17T18:35:49-05:00</lastmod>
   </url><url>
     <loc>https://academic-demo.netlify.app/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://academic-demo.netlify.app/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/hansheng-wang/</loc>
+    <lastmod>2022-01-17T18:35:40-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/publication/chen-2019-inflation/</loc>
+    <lastmod>2022-01-17T18:35:42-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/jessica-chubak/</loc>
+    <lastmod>2022-01-17T18:35:42-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/ke-xu/</loc>
+    <lastmod>2022-01-17T18:35:40-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/publication/xu-2019-photographic/</loc>
+    <lastmod>2022-01-17T18:35:40-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/rebecca-a-hubbard/</loc>
+    <lastmod>2022-01-17T18:35:42-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/rui-pan/</loc>
+    <lastmod>2022-01-17T18:35:40-05:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/yong-chen/</loc>
+    <lastmod>2022-01-17T18:35:42-05:00</lastmod>
   </url><url>
     <loc>https://academic-demo.netlify.app/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
@@ -122,23 +191,10 @@
     <loc>https://academic-demo.netlify.app/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://academic-demo.netlify.app/publication-type/2/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/author/robert-ford/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/publication-type/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://academic-demo.netlify.app/admin/</loc>
   </url><url>
-    <loc>https://academic-demo.netlify.app/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
+    <loc>https://academic-demo.netlify.app/categories/</loc>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/author/jianqiao-wang/</loc>
   </url>
 </urlset>

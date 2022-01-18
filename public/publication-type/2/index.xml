@@ -5,7 +5,7 @@
     <link>https://academic-demo.netlify.app/publication-type/2/</link>
       <atom:link href="https://academic-demo.netlify.app/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
@@ -13,22 +13,51 @@
     </image>
     
     <item>
-      <title>An example journal article</title>
-      <link>https://academic-demo.netlify.app/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://academic-demo.netlify.app/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>A Unified Approach to Robust Inference for Genetic Covariance</title>
+      <link>https://academic-demo.netlify.app/publication/wang-2021-unified/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/wang-2021-unified/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimation of genetic correlation with summary association statistics</title>
+      <link>https://academic-demo.netlify.app/publication/wang-2021-estimation/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/wang-2021-estimation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Race, Genetic Ancestry, and Estimating Kidney Function in CKD</title>
+      <link>https://academic-demo.netlify.app/publication/hsu-2021-race/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/hsu-2021-race/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparse Block Signal Detection and Identification for Shared Cross-Trait Association Analysis</title>
+      <link>https://academic-demo.netlify.app/publication/wangsparse/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/wangsparse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inflation of type I error rates due to differential misclassification in EHR-derived outcomes: Empirical illustration using breast cancer recurrence</title>
+      <link>https://academic-demo.netlify.app/publication/chen-2019-inflation/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/chen-2019-inflation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photographic diary: a new estimation approach to PM 2.5 monitoring</title>
+      <link>https://academic-demo.netlify.app/publication/xu-2019-photographic/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/xu-2019-photographic/</guid>
+      <description></description>
     </item>
     
   </channel>

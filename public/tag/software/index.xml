@@ -17,7 +17,67 @@
       <link>https://academic-demo.netlify.app/post/simulation-and-analysis-with-r-and-gcta/</link>
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://academic-demo.netlify.app/post/simulation-and-analysis-with-r-and-gcta/</guid>
-      <description>&lt;p&gt;My dissertation research always needs to do comparison with the GCTA method. GCTA is a wonderful software designed for the dealing with the GWAS data. On the other hand, it does not always fit in the common  statistical simulation pipeline, particualy for the software R. This post is used to document how to do statistical simulation with R and GCTA.&lt;/p&gt;
+      <description>&lt;p&gt;My dissertation research always needs to do comparison with the GCTA-GREML method. GCTA is a wonderful software designed for the dealing with the GWAS data. On the other hand, it does not always fit in the common  statistical simulation pipeline, particualy for the software R. This post is used to document how to do statistical simulation with R and GCTA based on a give genotype file.&lt;/p&gt;
+&lt;p&gt;What we need:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;phenotype file Y1, Y2&lt;/li&gt;
+&lt;li&gt;Genotype file  geno.bed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;First, we generate the GRM file based on the genotype file. This function only need be estimated once&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;MakeGRM = function(ref.bed, keep.snp, keep.ind, output.dir = &amp;quot;./temp/&amp;quot;){
+
+  grm = paste0(output.dir, &amp;quot;geno&amp;quot;)
+
+  fwrite(data.frame(keep.snp), file = paste0(output.dir,&amp;quot;snplist.txt&amp;quot;), quote = F, sep = &amp;quot;\t&amp;quot;, col.names=T, na = &amp;quot;NA&amp;quot;)
+
+  system(paste0(&amp;quot;plink --bfile &amp;quot;, ref.bed, &amp;quot; --extract &amp;quot;, paste0(output.dir, &amp;quot;snplist.txt&amp;quot;), &amp;quot; --make-grm-bin --out &amp;quot;, grm ) )
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In the second step, we need to write out the phenotype file based on the FID and IID&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;WritePheno = function( Y1, Y2, FID, IID, pheno.file  ){
+
+  pheno = data.frame(FID = FID, IID = IID,
+                     Y1 = Y1, Y2 = Y2)
+  
+  fwrite(pheno, file = pheno.file,
+         quote = F, sep = &amp;quot;\t&amp;quot;, col.names=T, na = &amp;quot;NA&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then we implement the GCTA,&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;SimuGCTA = function(geno.file, pheno.file, output.dir){
+
+  output.file = paste0(output.dir, &amp;quot;GCTA.result&amp;quot;)
+
+  system(paste0(&amp;quot;./gcta64 --reml-bivar --grm &amp;quot;,
+                geno.file,&amp;quot; --pheno &amp;quot;, pheno.file,
+                &amp;quot; --thread-num 20 --out &amp;quot;, output.file ))
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When the simulated errors have no covariance, we could specify &amp;ndash;reml-bivar-nocove for fair comparison. To test for the non-zero genetic covariance, ** &amp;ndash;reml-bivar-lrt-rg 0 ** could be used.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;SimuGCTA.test = function(geno.file, pheno.file, output.dir){
+
+  output.file = paste0(output.dir, &amp;quot;GCTA.result&amp;quot;)
+  
+  system(paste0(&amp;quot;./gcta64 --reml-bivar-nocove --reml-maxit 100 --grm &amp;quot;, 
+                geno.file,&amp;quot; --pheno &amp;quot;,
+                pheno.file,&amp;quot; --reml-bivar-lrt-rg 0 --out &amp;quot;,output.file))
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Read GCTA output file&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;read.GCTA = function(output.dir, LRT = T){
+  
+   filename = paste0(output.dir, &amp;quot;GCTA.result.hsq&amp;quot;)
+    if(file.exists(filename)){
+      hsq = data.table::fread(filename, fill = T)
+      Est = as.vector(t( hsq[1:3, 2:3])) %&amp;gt;% 
+    setNames(c(&amp;quot;Heri.1&amp;quot;,&amp;quot;Heri.1.Se&amp;quot;,&amp;quot;Heri.2&amp;quot;,&amp;quot;Heri.2.Se&amp;quot;, &amp;quot;GeCv&amp;quot;,&amp;quot;GeCv.Se&amp;quot; ))
+      if(LRT){
+      pval = as.numeric(sapply(strsplit(as.character(hsq[hsq$Source == &amp;quot;Pval&amp;quot;,2]), &amp;quot;\\(&amp;quot;), &amp;quot;[[&amp;quot;, 1))
+      }
+    }
+   return(list(Est = Est, pval = pval))
+}
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

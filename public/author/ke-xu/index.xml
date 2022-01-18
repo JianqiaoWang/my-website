@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ke Xu | Jianqiao Wang</title>
+    <link>https://academic-demo.netlify.app/author/ke-xu/</link>
+      <atom:link href="https://academic-demo.netlify.app/author/ke-xu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ke Xu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Ke Xu</title>
+      <link>https://academic-demo.netlify.app/author/ke-xu/</link>
+    </image>
+    
+    <item>
+      <title>Photographic diary: a new estimation approach to PM 2.5 monitoring</title>
+      <link>https://academic-demo.netlify.app/publication/xu-2019-photographic/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/xu-2019-photographic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
