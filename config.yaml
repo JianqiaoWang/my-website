@@ -69,7 +69,7 @@ related:
     - name: categories
       weight: 70
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+#markup:
+#  goldmark:
+#    renderer:
+#      unsafe: true
