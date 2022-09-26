@@ -20,9 +20,9 @@ interests:
 - Polygenic risk score
 - High dimensional statistics
 organizations:
-- name: Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania 
-  url: https://www.dbei.med.upenn.edu/
-role: 5th-Year PhD student
+- name: Department of Biostatistics, Harvard T.H. Chan School of Public Health
+  url: https://www.hsph.harvard.edu/biostatistics/
+role: Postdoctoral Research Fellow
 social:
 - icon: envelope
   icon_pack: fas
@@ -46,7 +46,9 @@ superuser: true
 title: Jianqiao Wang 
 ---
 
-I am currently a 5th-Year Ph.D. student at the Department of Biostatistics, Epidemiology and Informatics, the University of Pennsylvania, advised by Prof. Hongzhe Li.
+I'm a postdoctoral scholar in the Biostatistics Department at Harvard T.H. Chan School of Public Health, advised by Professor Xihong Lin.
+
+Prior to that, I got my Ph.D. in Biostatistics from the the University of Pennsylvania, advised by Professor Hongzhe Li.
 
 My research interest lies in understanding the shared genetic architecture of complex traits and disease outcomes. My current research focuses on (i) developing statistical tools for analyzing genetic and genomic data, (ii) detecting and identifying the overlapping genetic architecture.
 
