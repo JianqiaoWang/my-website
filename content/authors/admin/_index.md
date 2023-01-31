@@ -4,7 +4,7 @@ education:
   courses:
   - course: PhD in Biostatistics
     institution: University of Pennsylvania
-    year: 2017 - 2022(expected)
+    year: 2017 - 2022
   - course: MS in Biostatistics
     institution: University of Pennsylvania
     year: 2017 - 2019
