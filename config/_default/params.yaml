@@ -16,11 +16,11 @@ site_type: Person
 local_business_type: ''
 org_name: ''
 description: ''
-twitter: ''
+#twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: wangjq@upenn.edu
+email: j.wang@hsph.harvard.edu
 phone: ''
 address:
   street: ''

@@ -1,6 +1,0 @@
----
-summary: More about my research
-title: "research"
-type: widget_page
----
-

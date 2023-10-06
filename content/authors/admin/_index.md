@@ -11,7 +11,7 @@ education:
   - course: BSc in Statistics
     institution: Renmin University of China
     year: 2013 - 2017
-email: "wangjq@pennmedicine.upenn.edu"
+email: "j.wang@hsph.harvard.edu"
 highlight_name: true
 interests:
 - Statistical genetics and genomics
@@ -29,19 +29,19 @@ social:
   link: /#contact
 - display:
     header: true
-  icon: twitter
-  icon_pack: fab
-  label: Follow me on Twitter
-  link: https://twitter.com/
+  #icon: twitter
+  #icon_pack: fab
+  #label: Follow me on Twitter
+  #link: https://twitter.com/
 - icon: graduation-cap
   icon_pack: fas
   link: https://scholar.google.com/citations?hl=en&user=TX1-dzYAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/JianqiaoWang
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/
+#- icon: linkedin
+#  icon_pack: fab
+#  link: https://www.linkedin.com/
 superuser: true
 title: Jianqiao Wang 
 ---
@@ -52,4 +52,4 @@ Prior to that, I got my Ph.D. in Biostatistics from the the University of Pennsy
 
 My research interest lies in understanding the shared genetic architecture of complex traits and disease outcomes. My current research focuses on (i) developing statistical tools for analyzing genetic and genomic data, (ii) detecting and identifying the overlapping genetic architecture.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.

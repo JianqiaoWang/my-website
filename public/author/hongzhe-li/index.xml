@@ -5,7 +5,7 @@
     <link>https://academic-demo.netlify.app/author/hongzhe-li/</link>
       <atom:link href="https://academic-demo.netlify.app/author/hongzhe-li/index.xml" rel="self" type="application/rss+xml" />
     <description>Hongzhe Li</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Hongzhe Li</title>
@@ -13,9 +13,9 @@
     </image>
     
     <item>
-      <title>A Unified Approach to Robust Inference for Genetic Covariance</title>
+      <title>A Regression-based Approach to Robust Estimation and Inference for Genetic Covariance</title>
       <link>https://academic-demo.netlify.app/publication/wang-2021-unified/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://academic-demo.netlify.app/publication/wang-2021-unified/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>Estimation of genetic correlation with summary association statistics</title>
       <link>https://academic-demo.netlify.app/publication/wang-2021-estimation/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://academic-demo.netlify.app/publication/wang-2021-estimation/</guid>
       <description></description>
     </item>
@@ -31,7 +31,7 @@
     <item>
       <title>Sparse Block Signal Detection and Identification for Shared Cross-Trait Association Analysis</title>
       <link>https://academic-demo.netlify.app/publication/wangsparse/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://academic-demo.netlify.app/publication/wangsparse/</guid>
       <description></description>
     </item>

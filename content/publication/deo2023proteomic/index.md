@@ -1,19 +1,25 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Inflation of type I error rates due to differential misclassification in EHR-derived
-  outcomes: Empirical illustration using breast cancer recurrence'
+title: Proteomic cardiovascular risk assessment in chronic kidney
+    disease
 subtitle: ''
 summary: ''
 authors:
-- Yong Chen
-- Jianqiao Wang
-- Jessica Chubak
-- Rebecca A Hubbard
+  - Rajat Deo
+  - Ruth F Dubin
+  - Yue Ren
+  - Ashwin C Murthy
+  - Jianqiao Wang
+  - Haotian Zheng
+  - Zihe Zheng
+  - Harold Feldman
+  - Haochang Shou
+  - Josef Coresh
+  - others
 tags: []
 categories: []
-date: '2019-01-01'
-lastmod: 2022-01-17T18:35:42-05:00
+date: '2023-01-01'
 featured: false
 draft: false
 
@@ -31,9 +37,8 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2022-01-18T03:25:04.838387Z'
 publication_types:
 - '2'
 abstract: ''
-publication: '*Pharmacoepidemiology and drug safety*'
+publication: '*European Heart Journal*'
 ---
