@@ -136,10 +136,26 @@ The variance of the distribution is $\sigma^{2}$.
     </item>
     
     <item>
+      <title>Model-based compound hypothesis testing for snATAC-seq data with PACS</title>
+      <link>https://academic-demo.netlify.app/publication/miao2023model/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/miao2023model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Proteomic cardiovascular risk assessment in chronic kidney disease</title>
       <link>https://academic-demo.netlify.app/publication/deo2023proteomic/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://academic-demo.netlify.app/publication/deo2023proteomic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proteomics of CKD Progression in the Chronic Renal Insufficiency Cohort</title>
+      <link>https://academic-demo.netlify.app/publication/dubin2023proteomics/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/dubin2023proteomics/</guid>
       <description></description>
     </item>
     
@@ -646,6 +662,28 @@ Three
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://academic-demo.netlify.app/admin/config.yml</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://academic-demo.netlify.app/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/research/</guid>
+      <description>&lt;h3 id=&#34;publications&#34;&gt;Publications&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Wang, J.&lt;/strong&gt;, Li, S., and Li, H. (2023). A Regression-based Approach to Robust Estimation and Inference for Genetic Covariance, &lt;em&gt;Journal of the American Statistical Association (Theory and Methods)&lt;/em&gt;, Accepted.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wang, J.&lt;/strong&gt;, Wang, W. and Li, H. (2022). Sparse block signal detection and identification for shared cross-trait association analysis. &lt;em&gt;The Annals of Applied Statistics&lt;/em&gt;, 16(2), 866-886.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wang, J.&lt;/strong&gt; and Li, H. (2022). Estimation of genetic correlation with summary association statistics. &lt;em&gt;Biometrika&lt;/em&gt;, 109(2), 421-438.&lt;/p&gt;
+&lt;p&gt;Xu, K., &lt;strong&gt;Wang, J.&lt;/strong&gt;, Pan, R. and Wang, H., 2019. Photographic diary: a new estimation approach to PM 2.5 monitoring. &lt;em&gt;Statistics and Its Interface&lt;/em&gt;, 12(3), 387-395.&lt;/p&gt;
+&lt;p&gt;Chen, Y., &lt;strong&gt;Wang, J.&lt;/strong&gt;, Chubak, J., and Hubbard, R. A. (2019). Inflation of type I error rates due to differential misclassification in EHR‐derived outcomes: Empirical illustration using breast cancer recurrence. &lt;em&gt;Pharmacoepidemiology and drug safety&lt;/em&gt;, 28(2), 264-268.&lt;/p&gt;
+&lt;p&gt;Deo, R., Dubin, R.F., Ren, Y., Murthy, A.C., &lt;strong&gt;Wang, J.&lt;/strong&gt;, Zheng, H., Zheng, Z., Feldman, H., Shou, H., Coresh, J. and Grams, M. (2023). Proteomic cardiovascular risk assessment in chronic kidney disease. &lt;em&gt;European Heart Journal&lt;/em&gt;, 44(23), 2095-2110.&lt;/p&gt;
+&lt;p&gt;Dubin, R., Deo, R., Ren, Y., &lt;strong&gt;Wang, J.&lt;/strong&gt;, Zheng, Z., Shou, H., Go, A., Parsa, A., Lash, J., Rahman, M., Hsu, C., Weir, M., Chen, J., Anderson, A., Grams, M., Surapaneni, A., Coresh, J., Lee, H., Kimmel, P., Vasan, R., Feldman, H., Segal, M., Ganz, P. (2023). Proteomics of CKD progression in the chronic renal insufficiency cohort. &lt;em&gt;Nature Communication&lt;/em&gt;, Accepted.&lt;/p&gt;
+&lt;p&gt;Hsu, C. Y., Yang, W., Parikh, R. V., Anderson, A. H., Chen, T. K., Cohen, D. L., He, J., Mohanty, M. J., Lash, J. P., Mills, K. T., Muiru, A. N., Parsa, A., Saunders, M. R., Shafi, T., Townsend, R. R., Waikar, S. S., &lt;strong&gt;Wang, J.&lt;/strong&gt;, Wolf, M., Tan, T. C., Feldman, H. I., … CRIC Study Investigators (2021). Race, Genetic Ancestry, and Estimating Kidney Function in CKD. &lt;em&gt;The New England journal of medicine&lt;/em&gt;, 385(19), 1750–1760. &lt;strong&gt;(2022 Top 10 Clinical Research Achievement Awards).&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;preprints--working-papers&#34;&gt;Preprints &amp;amp; Working Papers&lt;/h3&gt;
+&lt;p&gt;Miao, Z., &lt;strong&gt;Wang, J.&lt;/strong&gt;, Park, K., Kuang, D., Kim, J. (2023). Model-based compound hypothesis testing for snATAC-seq data with PACS, bioRxiv.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wang, J.&lt;/strong&gt;, Cui, Y. and Su, W. (2023). Two-sample comparison via unsupervised random forest. &lt;em&gt;Submitted.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wang, J.&lt;/strong&gt; and Lin, X. Variance estimation with similarity encoding. &lt;em&gt;Working paper.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wang, J.&lt;/strong&gt; and Li, H. Large-scale shared-signal detection and identification. &lt;em&gt;Working paper.&lt;/em&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

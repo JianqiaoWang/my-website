@@ -5,12 +5,20 @@
     <link>https://academic-demo.netlify.app/author/chi-yuan-hsu/</link>
       <atom:link href="https://academic-demo.netlify.app/author/chi-yuan-hsu/index.xml" rel="self" type="application/rss+xml" />
     <description>Chi-yuan Hsu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Chi-yuan Hsu</title>
       <link>https://academic-demo.netlify.app/author/chi-yuan-hsu/</link>
     </image>
+    
+    <item>
+      <title>Proteomics of CKD Progression in the Chronic Renal Insufficiency Cohort</title>
+      <link>https://academic-demo.netlify.app/publication/dubin2023proteomics/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/dubin2023proteomics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Race, Genetic Ancestry, and Estimating Kidney Function in CKD</title>
