@@ -50,4 +50,4 @@ I got my Ph.D. in Biostatistics from  the University of Pennsylvania, advised by
 
 My research is dedicated to developing scalable and robust statistical methods for analyzing the high-dimensional genetic and genomic data. 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
+#{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
