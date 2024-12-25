@@ -17,7 +17,6 @@ interests:
 - Statistical genetics and genomics
 - Multi-omics data analysis
 - Integration of GWAS and eQTL 
-- Polygenic risk score
 - High dimensional statistics
 organizations:
 - name: Department of Biostatistics, Harvard T.H. Chan School of Public Health
@@ -48,8 +47,8 @@ title: Jianqiao Wang
 
 I'm a postdoctoral scholar in the Biostatistics Department at Harvard T.H. Chan School of Public Health, advised by Professor Xihong Lin.
 
-Prior to that, I got my Ph.D. in Biostatistics from the the University of Pennsylvania, advised by Professor Hongzhe Li.
+Prior to that, I got my Ph.D. in Biostatistics from  the University of Pennsylvania, advised by Professor Hongzhe Li.
 
-My research interest lies in understanding the shared genetic architecture of complex traits and disease outcomes. My current research focuses on (i) developing statistical tools for analyzing genetic and genomic data, (ii) detecting and identifying the overlapping genetic architecture.
+My research is dedicated to developing scalable and robust statistical methods for analyzing the high-dimensional genetic and genomic data.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
