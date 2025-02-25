@@ -16,8 +16,12 @@ share: false  # Show social sharing links?
 
 ### Publications
 
+#### Statistical Methods
 
-**Wang, J.**, Li, S., and Li, H. (2023). A Regression-based Approach to Robust Estimation and Inference for Genetic Covariance, *Journal of the American Statistical Association (Theory and Methods)*, Accepted.
+Miao, Z., **Wang, J.**, Park, K., Kuang, D., & Kim, J. (2025). Depth-corrected multi-factor dissection of chromatin accessibility for scATAC-seq data with PACS. Nature Communications, 16(1), 1-15.
+
+
+**Wang, J.**, Li, S., and Li, H. (2024). A Regression-based Approach to Robust Estimation and Inference for Genetic Covariance, *Journal of the American Statistical Association (Theory and Methods)*
 
 
 
@@ -29,13 +33,14 @@ share: false  # Show social sharing links?
 
 
 
-Xu, K., **Wang, J.**, Pan, R. and Wang, H., 2019. Photographic diary: a new estimation approach to PM 2.5 monitoring. *Statistics and Its Interface*, 12(3), 387-395.
+Xu, K., **Wang, J.**, Pan, R. and Wang, H., (2019). Photographic diary: a new estimation approach to PM 2.5 monitoring. *Statistics and Its Interface*, 12(3), 387-395.
 
 
 
 Chen, Y., **Wang, J.**, Chubak, J., and Hubbard, R. A. (2019). Inflation of type I error rates due to differential misclassification in EHR‐derived outcomes: Empirical illustration using breast cancer recurrence. *Pharmacoepidemiology and drug safety*, 28(2), 264-268.
 
 
+#### Scientific Collaboration 
 
 Deo, R., Dubin, R.F., Ren, Y., Murthy, A.C., **Wang, J.**, Zheng, H., Zheng, Z., Feldman, H., Shou, H., Coresh, J. and Grams, M. (2023). Proteomic cardiovascular risk assessment in chronic kidney disease. *European Heart Journal*, 44(23), 2095-2110.
 
@@ -51,13 +56,11 @@ Hsu, C. Y., Yang, W., Parikh, R. V., Anderson, A. H., Chen, T. K., Cohen, D. L.,
 
 ### Preprints & Working Papers
 
-Miao, Z., **Wang, J.**, Park, K., Kuang, D., Kim, J. (2023). Model-based compound hypothesis testing for snATAC-seq data with PACS, bioRxiv.
+
+**Wang, J.**, Cui, Y. and Su, W. (2025). Two-sample comparison via unsupervised random forest. *Submitted.*
 
 
-**Wang, J.**, Cui, Y. and Su, W. (2023). Two-sample comparison via unsupervised random forest. *Submitted.*
-
-
-**Wang, J.** and Lin, X. Variance estimation with similarity encoding. *Working paper.*
+**Wang, J.** and Lin, X. Heritability  estimation with genetics similarity representation. *Submitted.*
 
 
 **Wang, J.** and Li, H. Large-scale shared-signal detection and identification. *Working paper.*

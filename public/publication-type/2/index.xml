@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Jianqiao Wang</title>
+    <link>https://academic-demo.netlify.app/publication-type/2/</link>
+      <atom:link href="https://academic-demo.netlify.app/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>2</title>
+      <link>https://academic-demo.netlify.app/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>A Regression-based Approach to Robust Estimation and Inference for Genetic Covariance</title>
+      <link>https://academic-demo.netlify.app/publication/wang-2021-unified/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/wang-2021-unified/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proteomic cardiovascular risk assessment in chronic kidney disease</title>
+      <link>https://academic-demo.netlify.app/publication/deo2023proteomic/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/deo2023proteomic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proteomics of CKD Progression in the Chronic Renal Insufficiency Cohort</title>
+      <link>https://academic-demo.netlify.app/publication/dubin2023proteomics/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/dubin2023proteomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimation of genetic correlation with summary association statistics</title>
+      <link>https://academic-demo.netlify.app/publication/wang-2021-estimation/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/wang-2021-estimation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparse Block Signal Detection and Identification for Shared Cross-Trait Association Analysis</title>
+      <link>https://academic-demo.netlify.app/publication/wangsparse/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/wangsparse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Race, Genetic Ancestry, and Estimating Kidney Function in CKD</title>
+      <link>https://academic-demo.netlify.app/publication/hsu-2021-race/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/hsu-2021-race/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inflation of type I error rates due to differential misclassification in EHR-derived outcomes: Empirical illustration using breast cancer recurrence</title>
+      <link>https://academic-demo.netlify.app/publication/chen-2019-inflation/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/chen-2019-inflation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photographic diary: a new estimation approach to PM 2.5 monitoring</title>
+      <link>https://academic-demo.netlify.app/publication/xu-2019-photographic/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/xu-2019-photographic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -30,8 +30,7 @@
   
     
   
-  <meta name="description" content="First, we generate the ld score based on the genotype file. This function only need be estimated once
-module load ldsc source activate ldsc-1.0.1 ldsc.py &ndash;bfile geno &ndash;ld-wind-cm 1 &ndash;out chr1_select ldsc." />
+  <meta name="description" content="My dissertation research always needs to do comparison with the GCTA-GREML and LDSC.Here is an introduction of R analysis with LDSC and GCTA" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://academic-demo.netlify.app/post/simulation-and-analysis-with-r-and-ldsc/" />
@@ -294,8 +293,7 @@ module load ldsc source activate ldsc-1.0.1 ldsc.py &ndash;bfile geno &ndash;ld-
   <meta property="og:site_name" content="Jianqiao Wang" />
   <meta property="og:url" content="https://academic-demo.netlify.app/post/simulation-and-analysis-with-r-and-ldsc/" />
   <meta property="og:title" content="Simulation and analysis with R and LDSC | Jianqiao Wang" />
-  <meta property="og:description" content="First, we generate the ld score based on the genotype file. This function only need be estimated once
-module load ldsc source activate ldsc-1.0.1 ldsc.py &ndash;bfile geno &ndash;ld-wind-cm 1 &ndash;out chr1_select ldsc." /><meta property="og:image" content="https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:description" content="My dissertation research always needs to do comparison with the GCTA-GREML and LDSC.Here is an introduction of R analysis with LDSC and GCTA" /><meta property="og:image" content="https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -348,7 +346,7 @@ module load ldsc source activate ldsc-1.0.1 ldsc.py &ndash;bfile geno &ndash;ld-
       "url": "https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "First, we generate the ld score based on the genotype file. This function only need be estimated once\nmodule load ldsc source activate ldsc-1.0.1 ldsc.py \u0026ndash;bfile geno \u0026ndash;ld-wind-cm 1 \u0026ndash;out chr1_select ldsc."
+  "description": "My dissertation research always needs to do comparison with the GCTA-GREML and LDSC.Here is an introduction of R analysis with LDSC and GCTA"
 }
 </script>
 
@@ -674,7 +672,7 @@ module load ldsc source activate ldsc-1.0.1 ldsc.py &ndash;bfile geno &ndash;ld-
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    4 min read
   </span>
   
 
@@ -704,7 +702,71 @@ module load ldsc source activate ldsc-1.0.1 ldsc.py &ndash;bfile geno &ndash;ld-
   <div class="article-container">
 
     <div class="article-style">
-      <p>First, we generate the ld score based on the genotype file. This function only need be estimated once</p>
+      <p>My dissertation research always needs to do comparison with the GCTA-GREML and LDSC.Here is an introduction of R analysis with LDSC and GCTA</p>
+<h3 id="gcta">GCTA</h3>
+<p>GCTA is a wonderful software designed for the dealing with the GWAS data. On the other hand, it does not always fit in the common  statistical simulation pipeline, particualy for the software R. This post is used to document how to do statistical simulation with R and GCTA based on a give genotype file.</p>
+<p>What we need:</p>
+<ul>
+<li>phenotype file Y1, Y2</li>
+<li>Genotype file  geno.bed</li>
+</ul>
+<p>First, we generate the GRM file based on the genotype file. This function only need be estimated once</p>
+<pre><code class="language-r">MakeGRM = function(ref.bed, keep.snp, keep.ind, output.dir = &quot;./temp/&quot;){
+
+  grm = paste0(output.dir, &quot;geno&quot;)
+
+  fwrite(data.frame(keep.snp), file = paste0(output.dir,&quot;snplist.txt&quot;), quote = F, sep = &quot;\t&quot;, col.names=T, na = &quot;NA&quot;)
+
+  system(paste0(&quot;plink --bfile &quot;, ref.bed, &quot; --extract &quot;, paste0(output.dir, &quot;snplist.txt&quot;), &quot; --make-grm-bin --out &quot;, grm ) )
+}
+</code></pre>
+<p>In the second step, we need to write out the phenotype file based on the FID and IID</p>
+<pre><code class="language-r">WritePheno = function( Y1, Y2, FID, IID, pheno.file  ){
+
+  pheno = data.frame(FID = FID, IID = IID,
+                     Y1 = Y1, Y2 = Y2)
+  
+  fwrite(pheno, file = pheno.file,
+         quote = F, sep = &quot;\t&quot;, col.names=T, na = &quot;NA&quot;)
+}
+</code></pre>
+<p>Then we implement the GCTA,</p>
+<pre><code class="language-r">SimuGCTA = function(geno.file, pheno.file, output.dir){
+
+  output.file = paste0(output.dir, &quot;GCTA.result&quot;)
+
+  system(paste0(&quot;./gcta64 --reml-bivar --grm &quot;,
+                geno.file,&quot; --pheno &quot;, pheno.file,
+                &quot; --thread-num 20 --out &quot;, output.file ))
+}
+</code></pre>
+<p>When the simulated errors have no covariance, we could specify &ndash;reml-bivar-nocove for fair comparison. To test for the non-zero genetic covariance, ** &ndash;reml-bivar-lrt-rg 0 ** could be used.</p>
+<pre><code class="language-r">SimuGCTA.test = function(geno.file, pheno.file, output.dir){
+
+  output.file = paste0(output.dir, &quot;GCTA.result&quot;)
+  
+  system(paste0(&quot;./gcta64 --reml-bivar-nocove --reml-maxit 100 --grm &quot;, 
+                geno.file,&quot; --pheno &quot;,
+                pheno.file,&quot; --reml-bivar-lrt-rg 0 --out &quot;,output.file))
+}
+</code></pre>
+<p>Read GCTA output file</p>
+<pre><code class="language-r">read.GCTA = function(output.dir, LRT = T){
+  
+   filename = paste0(output.dir, &quot;GCTA.result.hsq&quot;)
+    if(file.exists(filename)){
+      hsq = data.table::fread(filename, fill = T)
+      Est = as.vector(t( hsq[1:3, 2:3])) %&gt;% 
+    setNames(c(&quot;Heri.1&quot;,&quot;Heri.1.Se&quot;,&quot;Heri.2&quot;,&quot;Heri.2.Se&quot;, &quot;GeCv&quot;,&quot;GeCv.Se&quot; ))
+      if(LRT){
+      pval = as.numeric(sapply(strsplit(as.character(hsq[hsq$Source == &quot;Pval&quot;,2]), &quot;\\(&quot;), &quot;[[&quot;, 1))
+      }
+    }
+   return(list(Est = Est, pval = pval))
+}
+</code></pre>
+<h3 id="ldsc">LDSC</h3>
+<p>First, we generate the ld score based on the genotype file. This function only need be estimated once</p>
 <p>module load ldsc
 source activate ldsc-1.0.1
 ldsc.py &ndash;bfile geno  &ndash;ld-wind-cm 1 &ndash;out chr1_select
@@ -904,7 +966,7 @@ ldsc.py &ndash;bfile ../../Cric_HF_RealData/rawdata/cric.filtered.maf0.01 &ndash
 
     <div class="media-body">
       <h5 class="card-title"><a href="https://academic-demo.netlify.app/">Jianqiao Wang</a></h5>
-      <h6 class="card-subtitle">Postdoctoral Research Fellow</h6>
+      <h6 class="card-subtitle">Assistant Professor</h6>
       <p class="card-text">My research interests include statistical genetics and genomics.</p>
       <ul class="network-icon" aria-hidden="true">
   

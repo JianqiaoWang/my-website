@@ -20,6 +20,12 @@
     <loc>https://academic-demo.netlify.app/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://academic-demo.netlify.app/post/guide-to-research/</loc>
+    <lastmod>2025-02-25T16:57:45+08:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/post/</loc>
+    <lastmod>2025-02-25T16:57:45+08:00</lastmod>
+  </url><url>
     <loc>https://academic-demo.netlify.app/publication-type/2/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -155,9 +161,6 @@
     <loc>https://academic-demo.netlify.app/author/wanjie-wang/</loc>
     <lastmod>2022-01-17T18:35:46-05:00</lastmod>
   </url><url>
-    <loc>https://academic-demo.netlify.app/post/</loc>
-    <lastmod>2021-11-27T17:58:09-05:00</lastmod>
-  </url><url>
     <loc>https://academic-demo.netlify.app/post/working-with-the-reference-genotype-data/</loc>
     <lastmod>2021-11-27T17:57:24-05:00</lastmod>
   </url><url>
@@ -169,15 +172,6 @@
   </url><url>
     <loc>https://academic-demo.netlify.app/post/simulation-and-analysis-with-r-and-ldsc/</loc>
     <lastmod>2021-11-23T11:50:44-05:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/post/simulation-and-analysis-with-r-and-gcta/</loc>
-    <lastmod>2021-11-22T22:45:32-05:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/tag/software/</loc>
-    <lastmod>2021-11-22T22:45:32-05:00</lastmod>
-  </url><url>
-    <loc>https://academic-demo.netlify.app/tags/</loc>
-    <lastmod>2021-11-22T22:45:32-05:00</lastmod>
   </url><url>
     <loc>https://academic-demo.netlify.app/courses/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
@@ -288,6 +282,9 @@
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://academic-demo.netlify.app/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://academic-demo.netlify.app/tags/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://academic-demo.netlify.app/admin/</loc>

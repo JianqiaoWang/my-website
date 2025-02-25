@@ -5,12 +5,45 @@
     <link>https://academic-demo.netlify.app/post/</link>
       <atom:link href="https://academic-demo.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://academic-demo.netlify.app/post/</link>
     </image>
+    
+    <item>
+      <title>A hitchhiker&#39;s guide to research (凡人科研指南)</title>
+      <link>https://academic-demo.netlify.app/post/guide-to-research/</link>
+      <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/post/guide-to-research/</guid>
+      <description>
+
+
+&lt;p&gt;学生时期对于学习生活有些思考，趁还记得住（或者说保持着年轻人的思维方式），特别分享出来，希望能对未来学生有所助益。本文随机更新！&lt;/p&gt;
+&lt;div id=&#34;提问和被提问&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;1. 提问和被提问&lt;/h3&gt;
+&lt;p&gt;提问与被提问是高等教育最重要的部分之一，也是个人成长和科研进步的关键环节。&lt;/p&gt;
+&lt;div id=&#34;面对评论和问题&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;面对评论和问题&lt;/h4&gt;
+&lt;p&gt;保持开放和感激的心态。从个人经验来看，每个人的时间和思考力都很宝贵，别人愿意对你的工作提出问题，是因为他们真的感兴趣，认为工作有启发性或者还有很大的提升空间。相反，对于不感兴趣的工作，我们往往只是客套地说一句“很好”或“做得不错”。因此，面对一些尖锐的问题，要实事求是，不要应激反应，不要过度防御，更无需内耗，结合别人的意见，努力提高自己；这种心态可以解决大部分的自我困扰。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;学会提出有助益的问题和评论&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;学会提出有助益的问题和评论&lt;/h4&gt;
+&lt;p&gt;能够提出准确且深刻的问题是一项高级技能，需要长期不断的训练。因此，从学生时期开始有意识地提高这一能力是非常必要的。但遗憾的是，这种提问能力（或者说批判性思维）我目前也还想到好的方法进行训练，唯一的建议就是多交流、多思考、多阅读、多参加会议。正所谓：“操千曲而后晓声，观千剑而后识器。”&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;博士训练专业性和一万小时定律&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;2. 博士训练、专业性和一万小时定律&lt;/h3&gt;
+&lt;p&gt;五年的博士训练，严格来说，是一万小时定律的体现，即每年工作 2000 小时 = 8 小时/天 × 250 天，让被训练者从普通人蜕变为小小专家。因此，博士训练更是一种职业性训练，就像奥运选手的训练，最终是为了更好的迎接职业挑战，因此要对其艰苦性有所准备。很多同学常常选择进一步深造，只是为了延迟成为社会人，这种看法是有问题的。客观来说，读博本身就是一个工作，但好处在于更自由更灵活，你会有更平等和广泛的机会去学习和提高。&lt;/p&gt;
+&lt;p&gt;另一方面，你身边的同学不是你的内卷对手，而是提高你能力的伙伴，是你的探索之时边界的同行者。因此，请珍惜身边的伙伴，努力从他们的思考中获得启发，不断加强交流，提高自己的能力。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;关于学术报告和交流&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;3. 关于学术报告和交流&lt;/h3&gt;
+&lt;p&gt;科研最终还是需要交流，院系举办学术报告，邀请资深学者进行学术交流是不可或缺的一部分。通常，我们会预留一些时间，让学生与教授交流。然而，许多年轻学子因为性格害羞或者不知道该问什么，而错失了这个机会。实际上，这种交流对于认识学术圈、选择未来职业方向，以及培养科研品味都极为重要。为访问学者带去一些好奇心的洗礼，帮助他们保持年轻开放的心态，也是变相让他们满载而归，而不是空手离开。&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Working with the reference genotype data</title>
@@ -173,7 +206,71 @@ MakeGRM = function(ref.bed, keep.snp, keep.ind, output.dir = &amp;quot;./temp/&a
       <link>https://academic-demo.netlify.app/post/simulation-and-analysis-with-r-and-ldsc/</link>
       <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://academic-demo.netlify.app/post/simulation-and-analysis-with-r-and-ldsc/</guid>
-      <description>&lt;p&gt;First, we generate the ld score based on the genotype file. This function only need be estimated once&lt;/p&gt;
+      <description>&lt;p&gt;My dissertation research always needs to do comparison with the GCTA-GREML and LDSC.Here is an introduction of R analysis with LDSC and GCTA&lt;/p&gt;
+&lt;h3 id=&#34;gcta&#34;&gt;GCTA&lt;/h3&gt;
+&lt;p&gt;GCTA is a wonderful software designed for the dealing with the GWAS data. On the other hand, it does not always fit in the common  statistical simulation pipeline, particualy for the software R. This post is used to document how to do statistical simulation with R and GCTA based on a give genotype file.&lt;/p&gt;
+&lt;p&gt;What we need:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;phenotype file Y1, Y2&lt;/li&gt;
+&lt;li&gt;Genotype file  geno.bed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;First, we generate the GRM file based on the genotype file. This function only need be estimated once&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;MakeGRM = function(ref.bed, keep.snp, keep.ind, output.dir = &amp;quot;./temp/&amp;quot;){
+
+  grm = paste0(output.dir, &amp;quot;geno&amp;quot;)
+
+  fwrite(data.frame(keep.snp), file = paste0(output.dir,&amp;quot;snplist.txt&amp;quot;), quote = F, sep = &amp;quot;\t&amp;quot;, col.names=T, na = &amp;quot;NA&amp;quot;)
+
+  system(paste0(&amp;quot;plink --bfile &amp;quot;, ref.bed, &amp;quot; --extract &amp;quot;, paste0(output.dir, &amp;quot;snplist.txt&amp;quot;), &amp;quot; --make-grm-bin --out &amp;quot;, grm ) )
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In the second step, we need to write out the phenotype file based on the FID and IID&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;WritePheno = function( Y1, Y2, FID, IID, pheno.file  ){
+
+  pheno = data.frame(FID = FID, IID = IID,
+                     Y1 = Y1, Y2 = Y2)
+  
+  fwrite(pheno, file = pheno.file,
+         quote = F, sep = &amp;quot;\t&amp;quot;, col.names=T, na = &amp;quot;NA&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then we implement the GCTA,&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;SimuGCTA = function(geno.file, pheno.file, output.dir){
+
+  output.file = paste0(output.dir, &amp;quot;GCTA.result&amp;quot;)
+
+  system(paste0(&amp;quot;./gcta64 --reml-bivar --grm &amp;quot;,
+                geno.file,&amp;quot; --pheno &amp;quot;, pheno.file,
+                &amp;quot; --thread-num 20 --out &amp;quot;, output.file ))
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When the simulated errors have no covariance, we could specify &amp;ndash;reml-bivar-nocove for fair comparison. To test for the non-zero genetic covariance, ** &amp;ndash;reml-bivar-lrt-rg 0 ** could be used.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;SimuGCTA.test = function(geno.file, pheno.file, output.dir){
+
+  output.file = paste0(output.dir, &amp;quot;GCTA.result&amp;quot;)
+  
+  system(paste0(&amp;quot;./gcta64 --reml-bivar-nocove --reml-maxit 100 --grm &amp;quot;, 
+                geno.file,&amp;quot; --pheno &amp;quot;,
+                pheno.file,&amp;quot; --reml-bivar-lrt-rg 0 --out &amp;quot;,output.file))
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Read GCTA output file&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;read.GCTA = function(output.dir, LRT = T){
+  
+   filename = paste0(output.dir, &amp;quot;GCTA.result.hsq&amp;quot;)
+    if(file.exists(filename)){
+      hsq = data.table::fread(filename, fill = T)
+      Est = as.vector(t( hsq[1:3, 2:3])) %&amp;gt;% 
+    setNames(c(&amp;quot;Heri.1&amp;quot;,&amp;quot;Heri.1.Se&amp;quot;,&amp;quot;Heri.2&amp;quot;,&amp;quot;Heri.2.Se&amp;quot;, &amp;quot;GeCv&amp;quot;,&amp;quot;GeCv.Se&amp;quot; ))
+      if(LRT){
+      pval = as.numeric(sapply(strsplit(as.character(hsq[hsq$Source == &amp;quot;Pval&amp;quot;,2]), &amp;quot;\\(&amp;quot;), &amp;quot;[[&amp;quot;, 1))
+      }
+    }
+   return(list(Est = Est, pval = pval))
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;ldsc&#34;&gt;LDSC&lt;/h3&gt;
+&lt;p&gt;First, we generate the ld score based on the genotype file. This function only need be estimated once&lt;/p&gt;
 &lt;p&gt;module load ldsc
 source activate ldsc-1.0.1
 ldsc.py &amp;ndash;bfile geno  &amp;ndash;ld-wind-cm 1 &amp;ndash;out chr1_select
@@ -245,75 +342,6 @@ ldsc.py &amp;ndash;bfile ../../Cric_HF_RealData/rawdata/cric.filtered.maf0.01 &a
     pvalue = NA
   }
   return( c(GeCv.pv = pvalue, GeCr.pv = as.numeric(result.P[2])) )
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Simulation and analysis with R and GCTA</title>
-      <link>https://academic-demo.netlify.app/post/simulation-and-analysis-with-r-and-gcta/</link>
-      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://academic-demo.netlify.app/post/simulation-and-analysis-with-r-and-gcta/</guid>
-      <description>&lt;p&gt;My dissertation research always needs to do comparison with the GCTA-GREML method. GCTA is a wonderful software designed for the dealing with the GWAS data. On the other hand, it does not always fit in the common  statistical simulation pipeline, particualy for the software R. This post is used to document how to do statistical simulation with R and GCTA based on a give genotype file.&lt;/p&gt;
-&lt;p&gt;What we need:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;phenotype file Y1, Y2&lt;/li&gt;
-&lt;li&gt;Genotype file  geno.bed&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;First, we generate the GRM file based on the genotype file. This function only need be estimated once&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;MakeGRM = function(ref.bed, keep.snp, keep.ind, output.dir = &amp;quot;./temp/&amp;quot;){
-
-  grm = paste0(output.dir, &amp;quot;geno&amp;quot;)
-
-  fwrite(data.frame(keep.snp), file = paste0(output.dir,&amp;quot;snplist.txt&amp;quot;), quote = F, sep = &amp;quot;\t&amp;quot;, col.names=T, na = &amp;quot;NA&amp;quot;)
-
-  system(paste0(&amp;quot;plink --bfile &amp;quot;, ref.bed, &amp;quot; --extract &amp;quot;, paste0(output.dir, &amp;quot;snplist.txt&amp;quot;), &amp;quot; --make-grm-bin --out &amp;quot;, grm ) )
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In the second step, we need to write out the phenotype file based on the FID and IID&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;WritePheno = function( Y1, Y2, FID, IID, pheno.file  ){
-
-  pheno = data.frame(FID = FID, IID = IID,
-                     Y1 = Y1, Y2 = Y2)
-  
-  fwrite(pheno, file = pheno.file,
-         quote = F, sep = &amp;quot;\t&amp;quot;, col.names=T, na = &amp;quot;NA&amp;quot;)
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Then we implement the GCTA,&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;SimuGCTA = function(geno.file, pheno.file, output.dir){
-
-  output.file = paste0(output.dir, &amp;quot;GCTA.result&amp;quot;)
-
-  system(paste0(&amp;quot;./gcta64 --reml-bivar --grm &amp;quot;,
-                geno.file,&amp;quot; --pheno &amp;quot;, pheno.file,
-                &amp;quot; --thread-num 20 --out &amp;quot;, output.file ))
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;When the simulated errors have no covariance, we could specify &amp;ndash;reml-bivar-nocove for fair comparison. To test for the non-zero genetic covariance, ** &amp;ndash;reml-bivar-lrt-rg 0 ** could be used.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;SimuGCTA.test = function(geno.file, pheno.file, output.dir){
-
-  output.file = paste0(output.dir, &amp;quot;GCTA.result&amp;quot;)
-  
-  system(paste0(&amp;quot;./gcta64 --reml-bivar-nocove --reml-maxit 100 --grm &amp;quot;, 
-                geno.file,&amp;quot; --pheno &amp;quot;,
-                pheno.file,&amp;quot; --reml-bivar-lrt-rg 0 --out &amp;quot;,output.file))
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Read GCTA output file&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;read.GCTA = function(output.dir, LRT = T){
-  
-   filename = paste0(output.dir, &amp;quot;GCTA.result.hsq&amp;quot;)
-    if(file.exists(filename)){
-      hsq = data.table::fread(filename, fill = T)
-      Est = as.vector(t( hsq[1:3, 2:3])) %&amp;gt;% 
-    setNames(c(&amp;quot;Heri.1&amp;quot;,&amp;quot;Heri.1.Se&amp;quot;,&amp;quot;Heri.2&amp;quot;,&amp;quot;Heri.2.Se&amp;quot;, &amp;quot;GeCv&amp;quot;,&amp;quot;GeCv.Se&amp;quot; ))
-      if(LRT){
-      pval = as.numeric(sapply(strsplit(as.character(hsq[hsq$Source == &amp;quot;Pval&amp;quot;,2]), &amp;quot;\\(&amp;quot;), &amp;quot;[[&amp;quot;, 1))
-      }
-    }
-   return(list(Est = Est, pval = pval))
 }
 &lt;/code&gt;&lt;/pre&gt;
 </description>
