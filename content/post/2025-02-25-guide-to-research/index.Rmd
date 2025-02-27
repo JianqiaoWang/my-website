@@ -46,11 +46,17 @@ projects: []
 大多数同学好像不太知道如何（向上）交流，其实大多数老师还是很nice的。这里有一些常见的打开话题的方式，抛砖引玉：
 
 -（1）问一些关于学术社区的情况，想找工作今年竞争激不激烈；问潜在工作机会，是不是有opening
+
 -（2）问一些high-level 关于方向判断的问题：例如用genotype data 真的可以得到准确因果结论吗？我们需要什么条件？
+
 -（3）问一些科研的基本逻辑：例如 seminal work 背后的故事，或是如何想到这个motivation？
+
 -（4）方向相关的，帮助打磨自己research:
+
  - whether the presentation of the idea/work is clear?
+ 
  - 某个方向您了解吗？which direction should I explore more? 
+ 
  - Do you think whether the topic is interesting?
 
 当然交流需要是发自内心的，更需要真诚，坚持真诚交流，就总会有些收获。话说回来，有效的沟通自然是职业性的一种体现，这也是我在博士博后训练中一直被教育的。
