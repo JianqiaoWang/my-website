@@ -48,6 +48,6 @@ I'm an Assistant Professor in the Department of Statistics and Data Science at t
 
 I got my Ph.D. in Biostatistics from  the University of Pennsylvania, advised by Professor Hongzhe Li. After that, I was a postdoctoral scholar in the Biostatistics Department at Harvard T.H. Chan School of Public Health, advised by Professor Xihong Lin.
 
-My research is dedicated to developing scalable, interpretable and robust statistical methods for analyzing the high-dimensional genetic and genomic data. Here the interpretability means that I know how the method works and when it fails.
+My research is dedicated to developing scalable, interpretable and robust statistical methods for analyzing the high-dimensional genetic and genomic data. Here the interpretability means to know how the method works and when it fails.
 
-#{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.
+<!--- #{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.//  --->
