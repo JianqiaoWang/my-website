@@ -1,0 +1,34 @@
+---
+title: thinking about data science
+author: Jianqiao Wang
+date: '2025-08-03'
+slug: thinking-about-data-science
+categories: []
+tags: [数据科学狂想曲；数据基本公理]
+subtitle: ''
+summary: '仿照三体世界提出的宇宙社会学的基本公理，也放飞一下思考'
+authors: []
+lastmod: '2025-08-03T17:00:30+08:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+什么是数据科学？
+
+Data is a projection of the real world. - Jianqiao Wang
+
+What's your data and what's your question?
+
+
+1. 数据是物质实体的映射。 一切真实世界信息只蕴藏于数据之中。
+
+复杂算法并不创造信息
+
+2. 算法表现的理论上界 is upper bounded 数据信息, 数据信息is upbounded by 物质世界的测量
+
+
+3. 数据结构的复杂性反应了背后物质世界生成的复杂性。
