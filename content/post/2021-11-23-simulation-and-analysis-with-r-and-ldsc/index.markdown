@@ -1,12 +1,12 @@
 ---
-title: Simulation and analysis with R and LDSC
+title: Simulation and analysis with R, GCTA, and LDSC
 author: Jianqiao Wang
 date: '2021-11-23'
 slug: simulation-and-analysis-with-r-and-ldsc
 categories: []
 tags: []
 subtitle: ''
-summary: 'My dissertation research always needs to do comparison with the GCTA-GREML and LDSC.Here is an introduction of R analysis with LDSC and GCTA'
+summary: 'Organize simulation preparation and provide a reusable R workflow for GCTA and LDSC.'
 authors: []
 lastmod: '2021-11-23T11:50:44-05:00'
 featured: no
@@ -17,17 +17,66 @@ image:
 projects: []
 ---
 
-My dissertation research always needs to do comparison with the GCTA-GREML and LDSC.Here is an introduction of R analysis with LDSC and GCTA
+My work often compares results from GCTA-GREML and LDSC. This note summarizes the end-to-end workflow—from data preparation to calling GCTA/LDSC from R—in a reusable, extensible form.
 
-###  GCTA
+## 0. Preparation
 
-GCTA is a wonderful software designed for the dealing with the GWAS data. On the other hand, it does not always fit in the common  statistical simulation pipeline, particualy for the software R. This post is used to document how to do statistical simulation with R and GCTA based on a give genotype file.
+Prepare the SNP list, sample list, and LD scores for simulation.
 
-What we need:
-- phenotype file Y1, Y2
-- Genotype file  geno.bed
+### 0.1 Prepare data for bigsnpr/bigstatsr
 
-First, we generate the GRM file based on the genotype file. This function only need be estimated once 
+```r
+library(bigsnpr)
+library(bigstatsr)
+PrepareX = FALSE
+
+if(PrepareX){
+  rds = bigsnpr::snp_readBed2(bedfile = "../../Cric_HF_RealData/rawdata/cric.filtered.maf0.01.bed",
+                       backingfile = "cric_geno",ind.col= ind.column)
+  geno <- snp_attach(rds)
+  G <- geno$genotypes
+  CHR <- geno$map$chromosome
+  infos <- snp_fastImputeSimple(G, method = "mean2")
+  geno$genotypes <- infos
+  geno <- snp_save(geno)
+  G <- geno$genotypes
+  ind.keep <- snp_clumping(G, infos.chr = geno$map$chromosome,
+                          infos.pos = geno$map$physical.pos,
+                          thr.r2 = 0.01)
+  saveRDS(ind.keep, file ="ind_keep_clump.rds")
+  data.table::fwrite( as.data.frame(geno$map$marker.ID), file = "snplist.txt")
+}
+```
+
+### 0.2 Prepare for GCTA (GRM)
+
+```r
+ref.bed = "../../Cric_HF_RealData/rawdata/cric.filtered.maf0.01"
+MakeGRM = function(ref.bed, keep.snp, keep.ind, output.dir = "./temp/"){
+
+  grm = paste0(output.dir, "geno")
+
+  fwrite(data.frame(keep.snp), file = paste0(output.dir,"snplist.txt"), quote = F, sep = "\t", col.names=T, na = "NA")
+
+  system(paste0("plink --bfile ", ref.bed, " --extract ", paste0(output.dir, "snplist.txt"), " --make-grm-bin --out ", grm ) )
+}
+```
+
+### 0.3 Prepare LD score for LDSC
+
+```bash
+ldsc.py --bfile ../../Cric_HF_RealData/rawdata/cric.filtered.maf0.01 --extract ./temp/snplist.txt --ld-wind-kb 1000 --out ./temp/geno
+```
+
+## 1. GCTA
+
+GCTA is widely used for GWAS analysis, but it can be awkward to integrate into an R-based simulation pipeline. Below is a minimal workflow for running bivariate REML from R.
+
+**Inputs**
+- phenotype file (Y1, Y2)
+- genotype file (geno.bed)
+
+First, generate the GRM from the genotype file. This step only needs to be done once.
 
 ```r
 MakeGRM = function(ref.bed, keep.snp, keep.ind, output.dir = "./temp/"){
@@ -40,7 +89,7 @@ MakeGRM = function(ref.bed, keep.snp, keep.ind, output.dir = "./temp/"){
 }
 ```
 
-In the second step, we need to write out the phenotype file based on the FID and IID 
+Next, write the phenotype file using FID and IID.
 
 ```r
 WritePheno = function( Y1, Y2, FID, IID, pheno.file  ){
@@ -53,7 +102,7 @@ WritePheno = function( Y1, Y2, FID, IID, pheno.file  ){
 }
 ```
 
-Then we implement the GCTA, 
+Then run GCTA.
 
 
 ```r
@@ -67,7 +116,7 @@ SimuGCTA = function(geno.file, pheno.file, output.dir){
 }
 ```
 
-When the simulated errors have no covariance, we could specify --reml-bivar-nocove for fair comparison. To test for the non-zero genetic covariance, ** --reml-bivar-lrt-rg 0 ** could be used.
+If simulated errors have no covariance, use `--reml-bivar-nocove` for a fair comparison. To test non-zero genetic covariance, use `--reml-bivar-lrt-rg 0`.
 
 
 ```r
@@ -81,7 +130,7 @@ SimuGCTA.test = function(geno.file, pheno.file, output.dir){
 }
 ```
 
-Read GCTA output file 
+Read the GCTA output file.
 
 
 ```r
@@ -101,17 +150,18 @@ read.GCTA = function(output.dir, LRT = T){
 ```
 
 
-###  LDSC
+## 2. LDSC
 
-First, we generate the ld score based on the genotype file. This function only need be estimated once 
+First, compute LD scores from the genotype file (done once).
 
+```bash
 module load ldsc
 source activate ldsc-1.0.1
-ldsc.py --bfile geno  --ld-wind-cm 1 --out chr1_select
+ldsc.py --bfile geno --ld-wind-cm 1 --out chr1_select
 ldsc.py --bfile ../../Cric_HF_RealData/rawdata/cric.filtered.maf0.01 --extract ./temp/snplist.txt --ld-wind-kb 1000 --out ./temp/geno
+```
 
-
-Implement the LDSC regression 
+Implement LDSC regression.
 
 ```r
 SimuLDSC = function(Z1, N1, Z2, N2, Nc=0, weight=T, CSTR = T,
@@ -143,7 +193,7 @@ SimuLDSC = function(Z1, N1, Z2, N2, Nc=0, weight=T, CSTR = T,
 ```
 
 
-read the LDSC output 
+Read the LDSC output.
 
 
 ```r

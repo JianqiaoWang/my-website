@@ -1,12 +1,12 @@
 ---
-title: Working with the reference genotype data
+title: Reference genotype data and summary statistics
 author: Jianqiao Wang
 date: '2021-11-27'
 slug: working-with-the-reference-genotype-data
 categories: []
 tags: []
 subtitle: ''
-summary: ''
+summary: 'Summarize how to obtain and process reference panels, and outline preprocessing for GWAS summary statistics.'
 authors: []
 lastmod: '2021-11-27T17:57:24-05:00'
 featured: no
@@ -108,6 +108,18 @@ cp ${genofile}_ctm.fam ${genofile}_ref.fam
 ```
 
 Then we remove the intermediate results and keep the ${genofile}_ref files as our reference panel.
+
+# Summary association statistics
+
+Summary statistics come in many formats across cohorts, so a light but consistent preprocessing step is recommended:
+
+- Minimum fields: SNP, A1, A2, BETA/OR, SE, P, N (or N_eff)
+- Harmonize genome build (GRCh37/GRCh38)
+- Align alleles and strand with the reference panel
+- Remove duplicated SNPs, missing values, and low-quality variants
+
+Useful links
+- https://dougspeed.com/summary-statistics/
 
 Reference
 

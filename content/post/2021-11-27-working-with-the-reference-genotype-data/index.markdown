@@ -1,12 +1,12 @@
 ---
-title: Working with the reference genotype data
+title: Reference genotype data and summary statistics
 author: Jianqiao Wang
 date: '2021-11-27'
 slug: working-with-the-reference-genotype-data
 categories: []
 tags: []
 subtitle: ''
-summary: ''
+summary: 'Summarize how to obtain and process reference panels, and outline preprocessing for GWAS summary statistics.'
 authors: []
 lastmod: '2021-11-27T17:57:24-05:00'
 featured: no
@@ -19,7 +19,7 @@ projects: []
 
 # Introduction
 
-The reference genotype database has been widely used for GWA studieds. It provides more information on the genetic variants when the individual-level genotype data is not available or the genotypes data has low sequencing depth. The reference also has been used for imputing the missing genotypes to boost the power of GWAS.
+Reference genotype panels are widely used in GWAS, especially when individual-level genotypes are unavailable or sequencing depth is low. They provide richer variant information and can improve downstream analyses. Below I use 1000 Genomes (1KGP) as an example, then summarize practical preprocessing tips for GWAS summary statistics.
 
 
 Common reference panels include:
@@ -29,7 +29,7 @@ Common reference panels include:
 - Topmed reference panel. Version r2 of the panel includes 97,256 reference samples and 308,107,085 genetic variants distributed across the 22 autosomes and the X chromosome.
 
 
-Not all reference panels are public. Large reference needs some applications . Here we focus on working with 1KGP reference panel.
+Not all reference panels are public. Some large panels require applications. Here we focus on the 1KGP reference panel.
 
 # Work with 1KGP
 
@@ -69,7 +69,7 @@ The output is the information of the genotypes
   No dosages present
 ```
 
-Then we extract the European indviduals with maf > 0.01 amd remove snps with multi allels, duplicate posisions and names 
+Then we extract the European individuals with MAF > 0.01 and remove multi-allelic SNPs, duplicate positions, and duplicate IDs.
 
 
 ```batch
@@ -115,6 +115,25 @@ cp ${genofile}_ctm.fam ${genofile}_ref.fam
 ```
 
 Then we remove the intermediate results and keep the ${genofile}_ref files as our reference panel.
+
+## Summary association statistics
+
+Summary statistics come in many formats across cohorts, so a light but consistent preprocessing step is recommended before analysis.
+
+**Minimum recommended fields**
+- SNP, A1, A2
+- Effect size (BETA/OR) and standard error (SE)
+- P value
+- Sample size (N or N_eff)
+
+**Common cleaning steps**
+- Remove duplicated SNPs, missing values, and obvious outliers
+- Harmonize genome build (e.g., GRCh37 vs GRCh38)
+- Align alleles and strand with the reference panel
+- Filter very low MAF and low-quality variants
+
+Useful links
+- https://dougspeed.com/summary-statistics/
 
 Reference
 

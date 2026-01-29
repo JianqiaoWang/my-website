@@ -1,12 +1,12 @@
 ---
-title: Simulation and analysis with R and LDSC
+title: Simulation and analysis with R, GCTA, and LDSC
 author: Jianqiao Wang
 date: '2021-11-23'
 slug: simulation-and-analysis-with-r-and-ldsc
 categories: []
 tags: []
 subtitle: ''
-summary: ''
+summary: 'Organize simulation preparation and provide a reusable R workflow for GCTA and LDSC.'
 authors: []
 lastmod: '2021-11-23T11:50:44-05:00'
 featured: no

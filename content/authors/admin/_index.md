@@ -11,7 +11,7 @@ education:
   - course: BSc in Statistics
     institution: Renmin University of China
     year: 2013 - 2017
-email: "jianqw@mail.tsinghua.edu.cn"
+email: "jianqw@tsinghua.edu.cn"
 highlight_name: true
 interests:
 - Interpretable high dimensional statistics
@@ -44,10 +44,14 @@ superuser: true
 title: Jianqiao Wang 
 ---
 
+<p style="text-align: right; margin: 0 0 0.75rem; font-style: italic; font-size: 0.95em;">“Data is a projection of the real world.”</p>
+
 I'm an Assistant Professor in the Department of Statistics and Data Science at the Tsinghua University. 
 
 I got my Ph.D. in Biostatistics from  the University of Pennsylvania, advised by Professor Hongzhe Li. After that, I was a postdoctoral scholar in the Biostatistics Department at Harvard T.H. Chan School of Public Health, advised by Professor Xihong Lin.
 
-My research is dedicated to developing scalable, interpretable and robust statistical methods for analyzing the high-dimensional genetic and genomic data. Here the interpretability means to know how the method works and when it fails.
+My research is dedicated to developing scalable, interpretable and robust statistical methods for analyzing the high-dimensional genetic and genomic data. Here the interpretability means to know how the method works and when it fails. 
+
+I am looking for highly motivated and curious PhD students and postdoctoral researchers to join the group.
 
 <!--- #{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/CV.pdf" "newtab" >}}CV{{< /staticref >}}.//  --->
