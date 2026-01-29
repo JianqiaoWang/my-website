@@ -2,13 +2,24 @@
 title: "VS Code、Remote-SSH、高校集群与计算环境"
 date: 2026-01-29
 author: Jianqiao Wang
+slug: vscode-remote-ssh-hpc
+categories:
+  - 技术随笔
 tags:
   - HPC
   - Remote-SSH
   - VSCode
   - 科研计算
-categories:
-  - 技术随笔
+subtitle: ''
+summary: '个人学习体会'
+authors: []
+lastmod: 2026-01-29
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
 ---
 
 ## VS Code、Remote-SSH、集群以及计算环境
@@ -29,13 +40,11 @@ categories:
 
 在实际使用中，真正让我反复受阻的，并不是调度系统本身，而是操作系统层面的限制。清华的探索1000集群以及 PMACS HPC 至今仍运行在 **CentOS 7.9**。这一选择在 2025 年已经很难再为其合理性辩护。随着开发工具的快速迭代，老旧系统逐渐成为瓶颈。例如，新版本的 VS Code 已不再支持 CentOS 7.9，这意味着在探索1000集群中，用户只能被迫长期停留在非常旧的 VS Code 版本，几乎没有升级空间。
 
-在对比之下，哈佛的 FASRC 显得尤为成熟。他们已整体升级至 Rocky Linux 8，这一决策本身表明，管理者清楚地认识到科研开发环境是不断演进的，系统应当为新工具预留空间，而不是要求用户长期迁就旧平台。与此同时，FASRC 也认真对待“从本地进行远程开发”的实际需求，明确支持通过 SSH、Remote-SSH 或 Tunnel 等方式连接计算节点，并将这些路径写入官方文档进行维护。相关说明可以在其官方文档中找到： [https://docs.rc.fas.harvard.edu/kb/vscode-remote-development-via-ssh-or-tunnel/](https://docs.rc.fas.harvard.edu/kb/vscode-remote-development-via-ssh-or-tunnel/)
+在同行衬托之下，哈佛的 FASRC 显得尤为成熟。他们已整体升级至 Rocky Linux 8，与此同时，FASRC 也认真对待“从本地进行远程开发”的实际需求，明确支持remote development连接计算节点，并将这些路径写入官方文档进行维护。相关说明可以在其官方文档中找到： [https://docs.rc.fas.harvard.edu/kb/vscode-remote-development-via-ssh-or-tunnel/](https://docs.rc.fas.harvard.edu/kb/vscode-remote-development-via-ssh-or-tunnel/)
 
-当然受限于集群这一个大框架，他们并不建议用vscode直连。相反
+当然受限于集群这一个大框架，他们并不建议用vscode直连。FASRC 明确引导用户使用基于 Web 的 OOD/远程桌面方案，而不是强行将所有工作流压到 SSH 之上。
 
 > We encourage all our users to utilize the Open On Demand (OOD) web interface of the cluster to launch VS Code when remote development work is not required. The instructions to launch VS Code using the Remote Desktop App are given [here](https://docs.rc.fas.harvard.edu/kb/ood-remote-desktop-how-to-open-software/#Visual_Studio_Code).
-
-这段官方说明也很有代表性：在无法或不需要进行真正的远程开发时，FASRC 明确引导用户使用基于 Web 的 OOD/远程桌面方案，而不是强行将所有工作流压到 SSH 之上。
 
 PMACS HPC 同样提供了较为成熟的远程桌面方案，而清华探索1000目前尚未提供类似支持。（THU计算机底子还是厚，不需要这种傻瓜式操作）
 
