@@ -123,18 +123,23 @@ breadcrumb:
   page_types:
     book: true
 comments:
-  provider: ''
+  provider: utterances
   commentable:
     post: true
-    book: true
-    project: true
-    publication: true
-    event: true
+    book: false
+    project: false
+    publication: false
+    event: false
   disqus:
     shortname: ''
     show_count: true
   commento:
     url: ''
+  utterances:
+    repo: JianqiaoWang/my-website
+    issue_term: pathname
+    label: comment
+    theme: github-light
 search:
   provider: wowchemy
   algolia:

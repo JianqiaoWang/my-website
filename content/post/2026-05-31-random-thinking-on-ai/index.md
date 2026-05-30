@@ -1,6 +1,6 @@
 ---
 title: "关于 AI 的一些随机思考"
-date: 2026-05-31
+date: 2026-05-31T01:42:00+08:00
 author: Jianqiao Wang
 slug: random-thinking-on-ai
 categories:
@@ -13,9 +13,9 @@ tags:
 subtitle: ''
 summary: '一些关于 AI、科研、工具和人的位置的阶段性想法。'
 authors: []
-lastmod: 2026-05-31
+lastmod: 2026-05-31T01:42:00+08:00
 featured: no
-draft: true
+draft: false
 image:
   caption: ''
   focal_point: ''
@@ -36,4 +36,3 @@ AI的出现，完全改变了“万事开头难”这句话。
 事情做到多好才是好，要考虑几个因素？一个研究做到什么程度才算深入？思考的极限又在哪里？
 
 AI也许可以替代完成主义者，但永远追不上完美主义者。
-
