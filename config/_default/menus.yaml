@@ -27,4 +27,7 @@ main:
     weight: 70
   - name: Research
     url: 'research/'
-    weight: 10  
+    weight: 10
+  - name: Group
+    url: 'group/'
+    weight: 15

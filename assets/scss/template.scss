@@ -2,3 +2,8 @@
 .portrait-title h2 {
   font-size: 1.5rem;
 }
+
+// Narrower reading width for long posts
+.article-container {
+  max-width: 760px;
+}

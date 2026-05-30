@@ -4,3 +4,12 @@
 .Ruserdata
 .DS_Store
 Thumbs.db
+
+# Hugo/blogdown build output.
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Local editor and OS noise.
+*.swp
+*.swo
