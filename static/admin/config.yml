@@ -1,0 +1,91 @@
+backend:
+  name: git-gateway
+  branch: master
+
+local_backend: true
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+publish_mode: editorial_workflow
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    label_singular: "Blog Post"
+    folder: "content/post"
+    path: "{{year}}-{{month}}-{{day}}-{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "Author", name: "author", widget: "string", default: "Jianqiao Wang" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Categories", name: "categories", widget: "list", required: false, default: ["随笔"] }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Summary", name: "summary", widget: "text", required: false }
+      - { label: "Authors", name: "authors", widget: "list", required: false, default: [] }
+      - { label: "Last Modified", name: "lastmod", widget: "datetime", required: false, format: "YYYY-MM-DD" }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false, required: false }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true, required: false }
+      - label: "Image"
+        name: "image"
+        widget: "object"
+        required: false
+        collapsed: true
+        fields:
+          - { label: "Caption", name: "caption", widget: "string", required: false }
+          - { label: "Focal Point", name: "focal_point", widget: "string", required: false }
+          - { label: "Preview Only", name: "preview_only", widget: "boolean", default: false, required: false }
+      - { label: "Projects", name: "projects", widget: "list", required: false, default: [] }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "pages"
+    label: "Site Pages"
+    files:
+      - label: "Research"
+        name: "research"
+        file: "content/research/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - { label: "View", name: "view", widget: "number", required: false }
+          - { label: "Show Date", name: "show_date", widget: "boolean", required: false }
+          - { label: "Profile", name: "profile", widget: "boolean", required: false }
+          - { label: "Comments", name: "comments", widget: "boolean", required: false }
+          - { label: "Reading Time", name: "reading_time", widget: "boolean", required: false }
+          - { label: "Share", name: "share", widget: "boolean", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Group"
+        name: "group"
+        file: "content/group/index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Summary", name: "summary", widget: "text", required: false }
+          - { label: "Date", name: "date", widget: "datetime", required: false, format: "YYYY-MM-DD" }
+          - { label: "Profile", name: "profile", widget: "boolean", required: false }
+          - { label: "Comments", name: "comments", widget: "boolean", required: false }
+          - { label: "Reading Time", name: "reading_time", widget: "boolean", required: false }
+          - { label: "Share", name: "share", widget: "boolean", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Author Profile"
+        name: "author_profile"
+        file: "content/authors/admin/_index.md"
+        fields:
+          - { label: "Display Name", name: "title", widget: "string" }
+          - { label: "Role", name: "role", widget: "string", required: false }
+          - { label: "Organizations", name: "organizations", widget: "list", required: false }
+          - { label: "Bio", name: "bio", widget: "text", required: false }
+          - { label: "Interests", name: "interests", widget: "list", required: false }
+          - { label: "Education", name: "education", widget: "object", required: false, fields: [{ label: "Courses", name: "courses", widget: "list", required: false }] }
+          - { label: "Social", name: "social", widget: "list", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
