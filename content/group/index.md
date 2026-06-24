@@ -32,11 +32,11 @@ This section can be used to record students, research assistants, visitors, and 
 
 <div class="row">
   <div class="col-md-4">
-    <img src="/media/group/pokemon-slowpoke.png" alt="Slowpoke placeholder" style="width: 100%; max-width: 220px; image-rendering: pixelated;">
-    <p><strong>TBD</strong><br>
-    Role: TBD<br>
-    Research area: TBD<br>
-    Period: TBD</p>
+    <img src="/media/group/profile_wzc.svg" alt="Portrait of Zichong Wang" style="width: 100%; max-width: 220px;">
+    <p><strong><a href="https://zichongwang.github.io/">Zichong Wang</a></strong><br>
+    Role: Incoming Ph.D. student<br>
+    Research area: Biostat, AI4Bio, Virtual Cell<br>
+    Period: 2026-</p>
   </div>
   <div class="col-md-4">
     <img src="/media/group/pokemon-fuecoco.png" alt="Fuecoco placeholder" style="width: 100%; max-width: 220px; image-rendering: pixelated;">

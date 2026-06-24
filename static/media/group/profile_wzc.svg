@@ -1,0 +1,16 @@
+<svg width="480" height="480" viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Zichong Wang portrait</title>
+  <desc id="desc">A geometric portrait illustration for Zichong Wang.</desc>
+  <rect width="480" height="480" rx="24" fill="#f2f2f2"/>
+  <path d="M56 382C101 300 152 258 209 256H271C328 258 379 300 424 382V424H56V382Z" fill="#171717"/>
+  <path d="M158 214C158 133 193 82 240 82C287 82 322 133 322 214C322 284 287 322 240 322C193 322 158 284 158 214Z" fill="#eaeaea"/>
+  <path d="M154 204C154 126 190 72 242 72C294 72 326 126 326 204C303 187 278 178 250 177C214 176 181 185 154 204Z" fill="#4d4d4d"/>
+  <path d="M171 222C191 203 213 194 239 194C268 194 292 204 313 224C307 286 280 318 240 318C200 318 175 286 171 222Z" fill="#ffffff"/>
+  <path d="M198 242C212 251 226 256 240 256C254 256 268 251 282 242" stroke="#171717" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="212" cy="222" r="6" fill="#171717"/>
+  <circle cx="268" cy="222" r="6" fill="#171717"/>
+  <path d="M205 362L240 322L275 362L256 424H224L205 362Z" fill="#006bff"/>
+  <path d="M90 424H390" stroke="#ffffff" stroke-opacity=".32" stroke-width="2"/>
+  <circle cx="385" cy="92" r="28" fill="#006bff"/>
+  <path d="M372 92H398M385 79V105" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+</svg>
