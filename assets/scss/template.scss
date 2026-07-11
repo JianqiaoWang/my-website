@@ -7,3 +7,79 @@
 .article-container {
   max-width: 1000px;
 }
+
+.group-member-card h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.group-member-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.group-member-link:hover,
+.group-member-link:focus {
+  color: #2d67b1;
+  text-decoration: underline;
+}
+
+.group-role {
+  margin: 0.25rem 0 0.9rem;
+  color: #5d6776;
+}
+
+.group-member-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.group-member-card {
+  display: flex;
+  flex: 0 1 400px;
+  gap: 1rem;
+  align-items: center;
+  padding: 1.25rem;
+  border: 1px solid #e6eaf0;
+  border-radius: 0.75rem;
+  background: #fff;
+  box-shadow: 0 0.2rem 0.75rem rgba(38, 55, 77, 0.06);
+}
+
+.group-member-pokemon {
+  width: 4.5rem;
+  height: 4.5rem;
+  flex: 0 0 4.5rem;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.group-member-card .group-role {
+  margin-bottom: 0;
+}
+
+.prospective-callout {
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid #2d67b1;
+  background: #f8fafc;
+}
+
+.prospective-callout p:last-of-type {
+  margin-bottom: 0.75rem;
+}
+
+.prospective-callout ul {
+  margin-bottom: 0;
+}
+
+@media (max-width: 575.98px) {
+  .group-member-card {
+    flex-basis: 100%;
+  }
+
+  .prospective-callout {
+    padding: 1.1rem 1.25rem;
+  }
+}

@@ -30,7 +30,7 @@ Please send a concise email with:
 
 - A brief introduction of your background and current program.
 - Your CV and transcript.
-- Your long-term goals (for example, whether you are determined to become a scientist).
+- Your long-term goals (for example, whether you are determined to become a scientist; you try to figure out how knowledge is formulated).
 - [Optional] Your expected application year and program.
 - [Optional] The research directions in this group that interest you.
 - [Optional] One or two research experiences, course projects, papers, or technical topics that shaped your interests.

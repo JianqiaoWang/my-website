@@ -1,6 +1,6 @@
 ---
-title: "Group"
-summary: "Research group members, alumni, and opportunities."
+title: "Lab"
+summary: "Lab members and opportunities."
 date: 2026-05-31T00:00:00+08:00
 profile: false
 comments: false
@@ -11,56 +11,39 @@ header:
   image: ""
 ---
 
-## Principal Investigator
-
-<div class="row">
-  <div class="col-md-3">
-    <img src="/media/group/pokemon-psyduck.png" alt="Psyduck placeholder" style="width: 100%; max-width: 220px; image-rendering: pixelated;">
-  </div>
-  <div class="col-md-9">
-    <p><strong>Jianqiao Wang</strong><br>
-    Assistant Professor</p>
-    <p>Research interests: statistical genetics and genomics, data science, computational methods, and scientific applications of AI.</p>
-  </div>
-</div>
-
 ## Current Members
 
-This section can be used to record students, research assistants, visitors, and collaborators.
-
-<div class="row">
-  <div class="col-md-4">
-    <img src="/media/group/pokemon-slowpoke.png" alt="Slowpoke placeholder" style="width: 100%; max-width: 220px; image-rendering: pixelated;">
-    <p><strong>Zichong Wang</strong><br>
-    Role: PHD student<br>
-    Start Year: 2026</p>
-  </div>
-  <div class="col-md-4">
-    <img src="/media/group/pokemon-fuecoco.png" alt="Fuecoco placeholder" style="width: 100%; max-width: 220px; image-rendering: pixelated;">
-    <p><strong>TBD</strong><br>
-    Role: TBD<br>
-    Research area: TBD<br>
-    Period: TBD</p>
-  </div>
-  <div class="col-md-4">
-    <img src="/media/group/pokemon-squirtle.png" alt="Squirtle placeholder" style="width: 100%; max-width: 220px; image-rendering: pixelated;">
-    <p><strong>TBD</strong><br>
-    Role: TBD<br>
-    Research area: TBD<br>
-    Period: TBD</p>
-  </div>
+<div class="group-member-grid">
+  <article class="group-member-card" id="zichong-wang">
+    <img class="group-member-pokemon" src="/media/group/pokemon-slowpoke.png" alt="">
+    <div>
+      <!-- Replace the href below with a personal website or GitHub URL when available. -->
+      <h3><a class="group-member-link" href="#zichong-wang">Zichong Wang</a></h3>
+      <p class="group-role">PhD student · 2026–present</p>
+    </div>
+  </article>
+  <article class="group-member-card" id="jiaxin-feng">
+    <img class="group-member-pokemon" src="/media/group/pokemon-psyduck.png" alt="">
+    <div>
+      <!-- Replace the href below with a personal website or GitHub URL when available. -->
+      <h3><a class="group-member-link" href="#jiaxin-feng">Jiaxin Feng</a></h3>
+      <p class="group-role">Undergraduate student · 2025–present</p>
+    </div>
+  </article>
 </div>
 
 ## Prospective Students
 
 I am interested in working with students on statistical genetics and genomics, data science, computational methods, and scientific applications of AI.
 
-Applicants who hope to pursue a PhD in the group are expected to have at least three month of research assistant experience with us before applying. 
-
-This requirement is meant to help both sides make a more informed decision. During this period, you should have time to:
-
-- Evaluate whether you are genuinely interested in our research directions.
-- Talk with current students and learn more about the group from the inside.
-- Understand more fully whether my advising style is a good fit for you.
+<div class="prospective-callout">
+  <p>Applicants who hope to pursue a PhD in the group are expected to have at least three months of research assistant experience with us before applying.</p>
+  <p>This requirement is meant to help both sides make a more informed decision. During this period, you should have time to:</p>
+  <ul>
+    <li>Evaluate whether you are genuinely interested in our research directions.</li>
+    <li>Talk with current students and learn more about the group from the inside.</li>
+    <li>Understand more fully whether my advising style is a good fit for you.</li>
+  </ul>
+</div>
 
 You may also read [the PhD application guidance](/prospective-phd/) before sending an email.
