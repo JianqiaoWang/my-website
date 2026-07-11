@@ -11,8 +11,6 @@ header:
   image: ""
 ---
 
-This page is reserved for future research group information.
-
 ## Principal Investigator
 
 <div class="row">
@@ -22,7 +20,7 @@ This page is reserved for future research group information.
   <div class="col-md-9">
     <p><strong>Jianqiao Wang</strong><br>
     Assistant Professor</p>
-    <p>Research interests: statistical genetics, data science, computational methods, and scientific applications of AI.</p>
+    <p>Research interests: statistical genetics and genomics, data science, computational methods, and scientific applications of AI.</p>
   </div>
 </div>
 
@@ -33,10 +31,9 @@ This section can be used to record students, research assistants, visitors, and 
 <div class="row">
   <div class="col-md-4">
     <img src="/media/group/pokemon-slowpoke.png" alt="Slowpoke placeholder" style="width: 100%; max-width: 220px; image-rendering: pixelated;">
-    <p><strong>TBD</strong><br>
-    Role: TBD<br>
-    Research area: TBD<br>
-    Period: TBD</p>
+    <p><strong>Zichong Wang</strong><br>
+    Role: PHD student<br>
+    Start Year: 2026</p>
   </div>
   <div class="col-md-4">
     <img src="/media/group/pokemon-fuecoco.png" alt="Fuecoco placeholder" style="width: 100%; max-width: 220px; image-rendering: pixelated;">
@@ -54,20 +51,16 @@ This section can be used to record students, research assistants, visitors, and 
   </div>
 </div>
 
-## Alumni
-
-<div class="row">
-  <div class="col-md-4">
-    <img src="/media/group/placeholder-profile.svg" alt="Alumni photo placeholder" style="width: 100%; max-width: 180px; border-radius: 8px;">
-    <p><strong>TBD</strong><br>
-    Role: TBD<br>
-    Current position: TBD<br>
-    Period: TBD</p>
-  </div>
-</div>
-
 ## Prospective Students
 
-I am interested in working with students on statistical genetics, data science, computational methods, and scientific applications of AI.
+I am interested in working with students on statistical genetics and genomics, data science, computational methods, and scientific applications of AI.
 
-More details will be added here as the group grows.
+Applicants who hope to pursue a PhD in the group are expected to have at least three month of research assistant experience with us before applying. Therefore, please contact me at least six months before you plan to submit your application.
+
+This requirement is meant to help both sides make a more informed decision. During this period, you should have time to:
+
+- Evaluate whether you are genuinely interested in our research directions.
+- Talk with current students and learn more about the group from the inside.
+- Understand more fully whether my advising style is a good fit for you.
+
+You may also read [the PhD application guidance](/prospective-phd/) before sending an email.
