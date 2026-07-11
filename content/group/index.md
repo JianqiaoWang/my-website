@@ -55,7 +55,7 @@ This section can be used to record students, research assistants, visitors, and 
 
 I am interested in working with students on statistical genetics and genomics, data science, computational methods, and scientific applications of AI.
 
-Applicants who hope to pursue a PhD in the group are expected to have at least three month of research assistant experience with us before applying. Therefore, please contact me at least six months before you plan to submit your application.
+Applicants who hope to pursue a PhD in the group are expected to have at least three month of research assistant experience with us before applying. 
 
 This requirement is meant to help both sides make a more informed decision. During this period, you should have time to:
 
