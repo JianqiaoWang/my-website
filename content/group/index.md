@@ -32,6 +32,29 @@ header:
   </article>
 </div>
 
+## Open Positions
+
+### Postdoctoral Fellows
+
+- The position focuses on high-impact research and scholarly publication. Fellows will conduct independent and collaborative research within the lab’s areas of interest.
+- Assist the principal investigator with mentoring students, preparing grant applications, managing research projects, and related responsibilities.
+- Eligible candidates will receive full support in applying for Tsinghua University’s Shuimu Tsinghua Scholar Program.
+- For outstanding candidates who qualify for the Shuimu Tsinghua Scholar Program but are not selected, the principal investigator will provide compensation matching the program’s salary level.
+
+### Full-Time Research Assistants
+
+- This is a research-focused position comparable to a Research Scientist role at a U.S. university or research institution, with scholarly research and publication as its primary responsibilities.
+- Depending on their interests and expertise, research assistants will independently or collaboratively develop research projects and contribute to problem formulation, modeling, computational experiments, and paper writing.
+- Assist the principal investigator with mentoring students, preparing grant applications, managing research projects, and related responsibilities.
+- Compensation will be determined based on the candidate’s research record, experience, and overall qualifications.
+
+### Research Interns / Visiting Students
+
+- Collaboration will be primarily remote, and applicants from all educational levels are welcome.
+- The principal investigator may provide a research topic, or students may propose a topic of interest and pursue it under the principal investigator’s guidance.
+- The lab will provide necessary computing resources, AI tools, and research mentoring. The primary objectives are learning, skill development, and knowledge growth.
+- Students who produce substantive research outputs will receive research compensation based on the nature of the outputs and their actual contributions.
+
 ## Prospective Students
 
 I am interested in working with students on statistical genetics and genomics, data science, computational methods, and scientific applications of AI.
