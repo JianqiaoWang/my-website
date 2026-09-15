@@ -28,6 +28,6 @@ main:
   - name: Research
     url: 'research/'
     weight: 10
-  - name: Group
+  - name: Lab
     url: 'group/'
     weight: 15
