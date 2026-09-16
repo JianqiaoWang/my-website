@@ -15,11 +15,11 @@ header:
 
 <div class="group-member-grid">
   <article class="group-member-card" id="zichong-wang">
-    <img class="group-member-pokemon" src="/media/group/pokemon-slowpoke.png" alt="">
+    <img class="group-member-pokemon" src="/media/group/profile_wzc.svg" alt="Portrait of Zichong Wang">
     <div>
-      <!-- Replace the href below with a personal website or GitHub URL when available. -->
-      <h3><a class="group-member-link" href="#zichong-wang">Zichong Wang</a></h3>
+      <h3><a class="group-member-link" href="https://zichongwang.github.io/">Zichong Wang</a></h3>
       <p class="group-role">PhD student · 2026–present</p>
+      <p>Research area: Biostat, AI4Bio, Virtual Cell</p>
     </div>
   </article>
   <article class="group-member-card" id="jiaxin-feng">
