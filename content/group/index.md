@@ -32,6 +32,22 @@ header:
   </article>
 </div>
 
+## Prospective Students
+
+I am interested in working with students on statistical genetics and genomics, data science, computational methods, and scientific applications of AI.
+
+<div class="prospective-callout">
+  <p>Applicants who hope to pursue a PhD in the group are expected to have at least three months of research assistant experience with us before applying.</p>
+  <p>This requirement is meant to help both sides make a more informed decision. During this period, you should have time to:</p>
+  <ul>
+    <li>Evaluate whether you are genuinely interested in our research directions.</li>
+    <li>Talk with current students and learn more about the group from the inside.</li>
+    <li>Understand more fully whether my advising style is a good fit for you.</li>
+  </ul>
+</div>
+
+You may also read [the PhD application guidance](/prospective-phd/) before sending an email.
+
 ## Open Positions
 
 ### Postdoctoral Fellows
@@ -54,19 +70,3 @@ header:
 - The principal investigator may provide a research topic, or students may propose a topic of interest and pursue it under the principal investigator’s guidance.
 - The lab will provide necessary computing resources, AI tools, and research mentoring. The primary objectives are learning, skill development, and knowledge growth.
 - Students who produce substantive research outputs will receive research compensation based on the nature of the outputs and their actual contributions.
-
-## Prospective Students
-
-I am interested in working with students on statistical genetics and genomics, data science, computational methods, and scientific applications of AI.
-
-<div class="prospective-callout">
-  <p>Applicants who hope to pursue a PhD in the group are expected to have at least three months of research assistant experience with us before applying.</p>
-  <p>This requirement is meant to help both sides make a more informed decision. During this period, you should have time to:</p>
-  <ul>
-    <li>Evaluate whether you are genuinely interested in our research directions.</li>
-    <li>Talk with current students and learn more about the group from the inside.</li>
-    <li>Understand more fully whether my advising style is a good fit for you.</li>
-  </ul>
-</div>
-
-You may also read [the PhD application guidance](/prospective-phd/) before sending an email.
