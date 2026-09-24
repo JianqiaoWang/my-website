@@ -11,38 +11,47 @@ header:
   image: ""
 ---
 
-Thank you for your interest in joining my research group. We explore statistical genetics, high-dimensional statistics, data science, computational methods, and scientific applications of AI. Students from different academic backgrounds are welcome, including those who are still exploring whether research is right for them.
+We welcome students interested in research at the intersection of mathematics, life sciences, medicine, and artificial intelligence. We especially encourage third-year undergraduates with a strong mathematical foundation to join the group for early research training. This training is geared toward students considering a PhD and a future in interdisciplinary research.
 
 ## What I Look For
 
-I value curiosity, intellectual honesty, persistence, clear communication, and a willingness to take initiative and learn. I am interested in how you approach questions, work through difficulties, and develop your ideas. Prior research experience can be helpful, but you do not need publications, a fully developed research proposal, or a settled career plan to start a conversation.
+I value curiosity, intellectual honesty, persistence, clear communication, and initiative. If you often ask "why," enjoy understanding the principles behind a method, and are drawn to complex problems in biology, medicine, or AI, our research may be a good fit for you.
 
-## Helpful Background
+## Research Directions
 
-Some foundation in mathematics, statistics, or computing is helpful, but you do not need to have studied all of these areas or have prior experience in genetics or genomics. Different backgrounds bring different strengths, and some programming or data analysis experience can be a useful starting point.
+### New Statistical Methods for Cellular and Multi-Omics Data
 
-We will help you develop the knowledge and skills needed for your research. Specific statistical methods, domain knowledge, and research tools can be learned as your project develops. If our research interests you, please feel free to get in touch even if you are unsure whether your background is a good fit.
+We use single-cell and multi-omics data to study changes in cell states, cellular development, gene perturbations, and cell fate. These data are high-dimensional, dynamic, noisy, and often incompletely observed. We develop mathematical models, statistical methods, and AI algorithms to better describe, explain, and predict the behavior of complex cellular systems.
 
-For ideas about what to explore over time, see our optional [learning resources and preparation guide](/learning-resources/).
+### New Statistical Learning Methods for Complex Biomedical Data
+
+We study disease risk prediction, integration of multiple data sources, and differences across populations and data sources using electronic health records, genetic data, and medical images. A central goal is to develop new methods in high-dimensional and robust statistics that improve model reliability and generalization.
+
+## Research Training
+
+Students can begin working on real, frontier research questions during their undergraduate studies. Training starts with statistical foundations, reading research papers, and data analysis. With guidance, you will gradually learn to:
+
+- Turn scientific questions into statistical problems.
+- Build models and design new methods.
+- Develop theoretical analyses and implement algorithms.
+- Evaluate methods through simulations and real data.
+
+A mathematical foundation and some programming or data analysis experience are useful starting points. We will choose readings and projects suited to your background and help you develop specialized knowledge as the work progresses. See the [learning guide](/learning-resources/) for suggested topics.
 
 ## When to Contact Me
 
-You are welcome to contact me while you are still exploring your interests. You do not need to finish a reading list or prepare a project before our first conversation.
+Get in touch early if you would like to explore research with us. Our first conversation can focus on your interests, experience, and questions about the group.
 
-If you are considering a PhD application, getting in touch around six months ahead is helpful for planning a period of research together. This is a suggested timeline, not a deadline for making contact. If you have less time, please still reach out and we can discuss what is feasible.
+For a PhD application, contacting me around six months ahead is helpful for planning research together. If your timeline is shorter, we can discuss what is feasible.
 
-Before formally applying for a PhD in the group, students are expected to have at least three months of research assistant experience with us. You can contact me first, and we can then arrange a project and timeline together. This period is an opportunity to learn with guidance, explore our research directions, and get to know the group.
+Before formally applying for a PhD in the group, students are expected to have at least three months of research assistant experience with us. You can contact me first, and we can then arrange a project and timeline together. This gives you time to explore our research and get to know the group through collaboration.
 
 ## What to Include in Your Email
 
-A short email is enough to start. Please include:
+Please send a short email with:
 
 - A brief introduction to your background and current program.
 - Your CV.
-- A few sentences about what interests you in the group's research or a question you would like to explore.
+- What interests you in the group's research or a question you would like to explore.
 
-If helpful, you can also share a course project, research experience, or topic you enjoyed, along with your transcript and expected application year. These details are optional for an initial inquiry. It is fine if your interests are still taking shape; there is no need to have your long-term career plans worked out.
-
-## Getting Started Together
-
-Our first conversation can focus on your interests, experience, and questions about research in the group. From there, we can choose a manageable starting point, such as a paper, dataset, or small project, suited to your background. The aim is to help you learn and give both sides a concrete way to explore working together.
+You may also include a course project, research experience, transcript, or expected application year. It is fine if your research interests are still taking shape.

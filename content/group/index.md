@@ -34,9 +34,11 @@ header:
 
 ## Prospective Students
 
-I am interested in working with students on statistical genetics and genomics, data science, computational methods, and scientific applications of AI.
+We especially welcome third-year undergraduates with an interest in research and a strong mathematical foundation to join the group for early research training. The training is geared toward students considering a PhD and research at the intersection of mathematics, life sciences, medicine, and AI.
 
-Students from different academic backgrounds are welcome. I value curiosity, initiative, and a willingness to learn. You do not need prior experience in genetics or genomics, or a fully developed research plan, to get in touch. If our research interests you, please feel free to contact me even if you are unsure whether your background is a good fit.
+Our two main research directions are **new statistical methods for cellular and multi-omics data** and **new statistical learning methods for complex biomedical data**. If you enjoy asking "why" and understanding the principles behind a problem, we would be glad to hear from you.
+
+Training begins with statistical foundations, reading research papers, and data analysis, then progresses to problem formulation, modeling, method design, theoretical analysis, algorithm implementation, and evaluation with real data.
 
 <div class="prospective-callout">
   <p>For students planning to apply for a PhD in the group, I expect at least three months of research assistant experience with us before the formal application. You are welcome to contact me first; we can then discuss a project and arrange this period of collaboration together.</p>
@@ -47,7 +49,7 @@ Students from different academic backgrounds are welcome. I value curiosity, ini
   </ul>
 </div>
 
-For suggestions on getting in touch and preparing for research, see [the prospective student guidance](/prospective-phd/).
+Learn more about [our research directions, training, and how to get in touch](/prospective-phd/).
 
 ## Open Positions
 
