@@ -17,19 +17,11 @@ We welcome students interested in research at the intersection of mathematics, l
 
 I value curiosity, intellectual honesty, persistence, clear communication, and initiative. If you often ask "why," enjoy understanding the principles behind a method, and are drawn to complex problems in biology, medicine, or AI, our research may be a good fit for you.
 
-## Research Directions
-
-### New Statistical Methods for Cellular and Multi-Omics Data
-
-We use single-cell and multi-omics data to study changes in cell states, cellular development, gene perturbations, and cell fate. These data are high-dimensional, dynamic, noisy, and often incompletely observed. We develop mathematical models, statistical methods, and AI algorithms to better describe, explain, and predict the behavior of complex cellular systems.
-
-### New Statistical Learning Methods for Complex Biomedical Data
-
-We study disease risk prediction, integration of multiple data sources, and differences across populations and data sources using electronic health records, genetic data, and medical images. A central goal is to develop new methods in high-dimensional and robust statistics that improve model reliability and generalization.
-
 ## Research Training
 
-Students can begin working on real, frontier research questions during their undergraduate studies. Training starts with statistical foundations, reading research papers, and data analysis. With guidance, you will gradually learn to:
+Undergraduate projects focus on two areas: statistical methods for single-cell and multi-omics data to understand cellular systems, and statistical learning for complex biomedical data to improve disease risk prediction, data integration, and model reliability.
+
+Training starts with statistical foundations, reading research papers, and data analysis. With guidance, you will gradually learn to:
 
 - Turn scientific questions into statistical problems.
 - Build models and design new methods.
