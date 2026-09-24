@@ -34,7 +34,7 @@ header:
 
 ## Prospective Students
 
-We especially welcome third-year undergraduates with an interest in research and a strong mathematical foundation to join the group for early research training. The training is geared toward students considering a PhD and research at the intersection of mathematics, life sciences, medicine, and AI.
+We welcome students at different stages of their studies and from diverse academic backgrounds who are interested in research at the intersection of mathematics, life sciences, medicine, and AI. Through guided projects, students can explore their interests, build research skills, and prepare for further study.
 
 Our two main research directions are **new statistical methods for cellular and multi-omics data** and **new statistical learning methods for complex biomedical data**. If you enjoy asking "why" and understanding the principles behind a problem, we would be glad to hear from you.
 

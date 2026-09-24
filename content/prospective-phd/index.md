@@ -11,7 +11,7 @@ header:
   image: ""
 ---
 
-We welcome students interested in research at the intersection of mathematics, life sciences, medicine, and artificial intelligence. We especially encourage third-year undergraduates with a strong mathematical foundation to join the group for early research training. This training is geared toward students considering a PhD and a future in interdisciplinary research.
+We welcome students at different stages of their studies and from diverse academic backgrounds who are interested in research at the intersection of mathematics, life sciences, medicine, and AI. Through guided projects, students can explore their interests, build research skills, and prepare for further study.
 
 ## What I Look For
 
@@ -19,7 +19,7 @@ I value curiosity, intellectual honesty, persistence, clear communication, and i
 
 ## Research Training
 
-Undergraduate projects focus on two areas: statistical methods for single-cell and multi-omics data to understand cellular systems, and statistical learning for complex biomedical data to improve disease risk prediction, data integration, and model reliability.
+Research projects focus on two areas: statistical methods for single-cell and multi-omics data to understand cellular systems, and statistical learning for complex biomedical data to improve disease risk prediction, data integration, and model reliability.
 
 Training starts with statistical foundations, reading research papers, and data analysis. With guidance, you will gradually learn to:
 
