@@ -36,17 +36,18 @@ header:
 
 I am interested in working with students on statistical genetics and genomics, data science, computational methods, and scientific applications of AI.
 
+Students from different academic backgrounds are welcome. I value curiosity, initiative, and a willingness to learn. You do not need prior experience in genetics or genomics, or a fully developed research plan, to get in touch. If our research interests you, please feel free to contact me even if you are unsure whether your background is a good fit.
+
 <div class="prospective-callout">
-  <p>Applicants who hope to pursue a PhD in the group are expected to have at least three months of research assistant experience with us before applying.</p>
-  <p>This requirement is meant to help both sides make a more informed decision. During this period, you should have time to:</p>
+  <p>For students planning to apply for a PhD in the group, I expect at least three months of research assistant experience with us before the formal application. You are welcome to contact me first; we can then discuss a project and arrange this period of collaboration together.</p>
+  <p>This experience gives both sides time to make an informed decision. You will have opportunities to:</p>
   <ul>
-    <li>Evaluate whether you are genuinely interested in our research directions.</li>
+    <li>Explore our research directions through a project with guidance from the lab.</li>
     <li>Talk with current students and learn more about the group from the inside.</li>
-    <li>Understand more fully whether my advising style is a good fit for you.</li>
   </ul>
 </div>
 
-You may also read [the PhD application guidance](/prospective-phd/) before sending an email.
+For suggestions on getting in touch and preparing for research, see [the prospective student guidance](/prospective-phd/).
 
 ## Open Positions
 
